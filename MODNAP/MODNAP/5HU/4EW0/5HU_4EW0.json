@@ -1,0 +1,42 @@
+{
+    "name": "5HU_4EW0",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "WTPPRSPFNLVQEILFHDPWKLLIATIFLNRTSGKMAIPVLWEFLEKYPSAEVARAADWRDVSELLKPLGLYDLRAKTIIKFSDEYLTKQWRYPIELHGIGKYGNDSYRIFCVNEWKQVHPENHKLNKYHDWLWENHEKLSLS"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "TCAGCGCATGG"
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "CCATGUGCTGA",
+                "modifications": [
+                    {
+                        "modificationType": "5HU",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "NI"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

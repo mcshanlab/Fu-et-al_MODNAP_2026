@@ -1,0 +1,44 @@
+HETATM    1  CM2 OMC B   6       3.925   0.765   6.569  1.00 93.65      B    C  
+HETATM    2  P   OMC B   6       7.747  -2.978   9.549  1.00 97.07      B    P  
+HETATM    3  C5' OMC B   6       5.190  -3.403   9.635  1.00 97.07      B    C  
+HETATM    4  O5' OMC B   6       6.267  -2.517   9.378  1.00 96.89      B    O  
+HETATM    5  C4' OMC B   6       3.881  -2.595   9.686  1.00 97.58      B    C  
+HETATM    6  O4' OMC B   6       3.973  -1.584  10.644  1.00 97.44      B    O  
+HETATM    7  C3' OMC B   6       3.479  -1.928   8.364  1.00 97.73      B    C  
+HETATM    8  O3' OMC B   6       2.071  -1.962   8.206  1.00 97.14      B    O  
+HETATM    9  C2' OMC B   6       3.992  -0.513   8.554  1.00 97.55      B    C  
+HETATM   10  O2' OMC B   6       3.312   0.473   7.847  1.00 96.69      B    O  
+HETATM   11  C1' OMC B   6       3.731  -0.298  10.043  1.00 97.81      B    C  
+HETATM   12  N1  OMC B   6       4.513   0.810  10.573  1.00 97.84      B    N  
+HETATM   13  C2  OMC B   6       3.855   1.766  11.348  1.00 97.70      B    C  
+HETATM   14  O2  OMC B   6       2.661   1.636  11.597  1.00 97.05      B    O  
+HETATM   15  N3  OMC B   6       4.551   2.838  11.797  1.00 96.98      B    N  
+HETATM   16  C4  OMC B   6       5.858   2.975  11.531  1.00 97.18      B    C  
+HETATM   17  N4  OMC B   6       6.513   4.052  12.000  1.00 95.93      B    N  
+HETATM   18  C5  OMC B   6       6.557   1.997  10.786  1.00 96.80      B    C  
+HETATM   19  C6  OMC B   6       5.847   0.928  10.329  1.00 97.31      B    C  
+HETATM   20  OP1 OMC B   6       7.948  -4.229   8.755  1.00 95.55      B    O1-
+HETATM   21  OP2 OMC B   6       8.602  -1.783   9.300  1.00 96.04      B    O  
+TER   
+CONECT    1   10
+CONECT    2   20   21    4
+CONECT    3    4    5
+CONECT    4    3    2
+CONECT    5    3    6    7
+CONECT    6    5   11
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9    1
+CONECT   11    6    9   12
+CONECT   12   11   13   19
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   12   18
+CONECT   20    2
+CONECT   21    2
+END

@@ -1,0 +1,45 @@
+HETATM    1  P   ATM P  21     -11.672 -18.132 -21.384  1.00 89.11      P    P  
+HETATM    2  C5' ATM P  21     -12.057 -18.488 -18.824  1.00 87.03      P    C  
+HETATM    3  N5' ATM P  21     -16.490 -19.215 -18.355  1.00 75.70      P    N  
+HETATM    4  O5' ATM P  21     -12.246 -17.655 -19.945  1.00 88.37      P    O  
+HETATM    5  C4' ATM P  21     -12.505 -17.806 -17.554  1.00 87.42      P    C  
+HETATM    6  N4' ATM P  21     -15.683 -18.830 -17.705  1.00 82.47      P    N  
+HETATM    7  O4' ATM P  21     -11.865 -16.580 -17.400  1.00 86.60      P    O  
+HETATM    8  C3' ATM P  21     -13.971 -17.391 -17.526  1.00 88.38      P    C  
+HETATM    9  N3' ATM P  21     -14.756 -18.442 -16.969  1.00 85.46      P    N  
+HETATM   10  C2' ATM P  21     -14.017 -16.247 -16.562  1.00 86.06      P    C  
+HETATM   11  C1' ATM P  21     -12.666 -15.620 -16.726  1.00 86.73      P    C  
+HETATM   12  N1  ATM P  21     -12.752 -14.412 -17.532  1.00 87.36      P    N  
+HETATM   13  C2  ATM P  21     -13.085 -13.220 -16.907  1.00 87.09      P    C  
+HETATM   14  O2  ATM P  21     -13.311 -13.203 -15.724  1.00 86.61      P    O  
+HETATM   15  N3  ATM P  21     -13.150 -12.084 -17.656  1.00 85.68      P    N  
+HETATM   16  C4  ATM P  21     -12.920 -12.057 -18.996  1.00 86.78      P    C  
+HETATM   17  O4  ATM P  21     -13.007 -11.009 -19.622  1.00 86.35      P    O  
+HETATM   18  C5  ATM P  21     -12.574 -13.316 -19.641  1.00 87.06      P    C  
+HETATM   19  C5A ATM P  21     -12.291 -13.374 -21.114  1.00 84.75      P    C  
+HETATM   20  C6  ATM P  21     -12.508 -14.468 -18.877  1.00 87.19      P    C  
+HETATM   21  OP1 ATM P  21     -12.191 -19.535 -21.604  1.00 86.07      P    O1-
+HETATM   22  OP2 ATM P  21     -11.957 -17.057 -22.347  1.00 85.94      P    O  
+CONECT    1    4   21   22
+CONECT    2    5    4
+CONECT    3    6
+CONECT    4    1    2
+CONECT    5    2    7    8
+CONECT    6    3    9
+CONECT    7    5   11
+CONECT    8    5    9   10
+CONECT    9    8    6
+CONECT   10    8   11
+CONECT   11    7   10   12
+CONECT   12   11   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   12   18
+CONECT   21    1
+CONECT   22    1
+END

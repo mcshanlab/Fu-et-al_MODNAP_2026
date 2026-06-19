@@ -1,0 +1,50 @@
+{
+    "name": "CBR_1IJW",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "C",
+                "sequence": "GRPRAINKHEQEQISRLLEKGHPRQQLAIIFGIGVSTLYRYFPASSI"
+            }
+        },
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "TGTTTTTGATAAGA"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "ATCTTATCAAAAAC",
+                "modifications": [
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 3
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "TRS"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "H",
+                "ccdCodes": [
+                    "TRS"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

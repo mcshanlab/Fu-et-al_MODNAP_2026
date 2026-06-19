@@ -1,0 +1,40 @@
+HETATM    1  P   P2U C   7      -3.101  -0.877   8.908  1.00 84.45      C    P  
+HETATM    2  C5' P2U C   7      -3.528  -0.816   6.294  1.00 79.94      C    C  
+HETATM    3  O5' P2U C   7      -3.558  -0.168   7.540  1.00 81.90      C    O  
+HETATM    4  C4' P2U C   7      -4.067   0.198   5.331  1.00 79.01      C    C  
+HETATM    5  O4' P2U C   7      -3.236   1.364   5.411  1.00 78.05      C    O  
+HETATM    6  C3' P2U C   7      -3.984  -0.198   3.895  1.00 83.36      C    C  
+HETATM    7  O3' P2U C   7      -5.279  -0.021   3.305  1.00 82.60      C    O  
+HETATM    8  C2' P2U C   7      -2.967   0.744   3.288  1.00 75.55      C    C  
+HETATM    9  C1' P2U C   7      -2.755   1.867   4.286  1.00 71.31      C    C  
+HETATM   10  N1  P2U C   7       0.628   1.966   5.943  1.00 71.80      C    N  
+HETATM   11  C2  P2U C   7       1.291   2.939   5.202  1.00 74.23      C    C  
+HETATM   12  O2  P2U C   7       2.472   3.250   5.474  1.00 75.00      C    O  
+HETATM   13  N3  P2U C   7       0.619   3.543   4.163  1.00 72.34      C    N  
+HETATM   14  C4  P2U C   7      -0.671   3.239   3.850  1.00 77.35      C    C  
+HETATM   15  O4  P2U C   7      -1.250   3.838   2.919  1.00 74.65      C    O  
+HETATM   16  C5  P2U C   7      -1.342   2.227   4.619  1.00 78.12      C    C  
+HETATM   17  C6  P2U C   7      -0.641   1.627   5.654  1.00 73.76      C    C  
+HETATM   18  OP1 P2U C   7      -1.605  -1.019   8.953  1.00 78.83      C    O1-
+HETATM   19  OP2 P2U C   7      -3.710  -0.160  10.071  1.00 80.21      C    O  
+TER   
+CONECT    1   18   19    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4    9
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    9    5    8   16
+CONECT   10   11   17
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14    9   17
+CONECT   17   10   16
+CONECT   18    1
+CONECT   19    1
+END

@@ -1,0 +1,82 @@
+{
+    "name": "OMC_2OEU",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GGAUGUACUACCAGCUGAUGAGUCCCAAAUAGGACGAAACGCC",
+                "modifications": [
+                    {
+                        "modificationType": "GTP",
+                        "basePosition": 1
+                    }
+                ]
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "GGCGUCCUGGUAUCCAAUCC",
+                "modifications": [
+                    {
+                        "modificationType": "OMC",
+                        "basePosition": 6
+                    },
+                    {
+                        "modificationType": "5BU",
+                        "basePosition": 11
+                    },
+                    {
+                        "modificationType": "DC",
+                        "basePosition": 20
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "MN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "MN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "MN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "MN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "MN"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

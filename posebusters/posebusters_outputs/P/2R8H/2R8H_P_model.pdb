@@ -1,0 +1,52 @@
+HETATM    1  P     P T   4       1.957   7.384 -12.504  1.00 98.61      T    P  
+HETATM    2  C5'   P T   4       0.816   7.768 -10.162  1.00 98.15      T    C  
+HETATM    3  O5'   P T   4       1.865   7.192 -10.904  1.00 98.45      T    O  
+HETATM    4  C4'   P T   4       0.815   7.286  -8.739  1.00 98.49      T    C  
+HETATM    5  O4'   P T   4       0.239   6.004  -8.571  1.00 98.45      T    O  
+HETATM    6  C3'   P T   4       2.146   7.216  -8.102  1.00 98.55      T    C  
+HETATM    7  O3'   P T   4       2.103   8.115  -7.024  1.00 98.15      T    O  
+HETATM    8  C2'   P T   4       2.327   5.757  -7.709  1.00 98.11      T    C  
+HETATM    9  C1'   P T   4       0.917   5.273  -7.627  1.00 98.45      T    C  
+HETATM   10  N1    P T   4      -1.292   0.856  -6.048  1.00 98.17      T    N  
+HETATM   11  C2    P T   4      -1.364   2.142  -5.470  1.00 98.22      T    C  
+HETATM   12  N2    P T   4      -2.075   2.356  -4.334  1.00 97.77      T    N  
+HETATM   13  N3    P T   4      -0.731   3.189  -6.025  1.00 98.30      T    N  
+HETATM   14  C4    P T   4       0.006   2.974  -7.147  1.00 98.41      T    C  
+HETATM   15  C5    P T   4       0.133   1.724  -7.759  1.00 98.24      T    C  
+HETATM   16  C6    P T   4      -0.540   0.599  -7.213  1.00 98.20      T    C  
+HETATM   17  C6A   P T   4      -2.739   1.334  -3.681  1.00 97.51      T    C  
+HETATM   18  O6    P T   4      -0.477  -0.522  -7.688  1.00 97.48      T    O  
+HETATM   19  C7A   P T   4      -2.669   0.010  -4.209  1.00 97.43      T    C  
+HETATM   20  N7    P T   4       0.932   1.845  -8.852  1.00 98.02      T    N  
+HETATM   21  C8    P T   4       1.264   3.090  -8.906  1.00 98.24      T    C  
+HETATM   22  C8A   P T   4      -1.994  -0.219  -5.436  1.00 97.68      T    C  
+HETATM   23  N9    P T   4       0.743   3.824  -7.890  1.00 98.40      T    N  
+HETATM   24  OP1   P T   4       1.869   8.835 -12.824  1.00 97.35      T    O1-
+HETATM   25  OP2   P T   4       3.136   6.584 -13.011  1.00 97.84      T    O  
+TER   
+CONECT    1    3   24   25
+CONECT    2    4    3
+CONECT    3    1    2
+CONECT    4    2    5    6
+CONECT    5    4    9
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    9    5    8   23
+CONECT   10   11   22   16
+CONECT   11   10   12   13
+CONECT   12   11   17
+CONECT   13   11   14
+CONECT   14   13   15   23
+CONECT   15   14   16   20
+CONECT   16   15   10   18
+CONECT   17   12   19
+CONECT   18   16
+CONECT   19   17   22
+CONECT   20   15   21
+CONECT   21   20   23
+CONECT   22   10   19
+CONECT   23    9   14   21
+CONECT   24    1
+CONECT   25    1
+END

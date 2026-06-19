@@ -1,0 +1,52 @@
+{
+    "name": "5BU_1JID",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "AARSPADQDRFICIYPAYLNNKKTIAEGRRIPISKAVENPTATEIQDVCSAVGLNVFLEKNKMYSREWNRDVQYRGRVRVQLKQEDGSLCLVQFPSRKSVMLYAAEMIPKLKTR"
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "GGUGACCUCCCGGGAGCGGGGGACCACUA",
+                "modifications": [
+                    {
+                        "modificationType": "5BU",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "5BU",
+                        "basePosition": 8
+                    },
+                    {
+                        "modificationType": "A23",
+                        "basePosition": 29
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

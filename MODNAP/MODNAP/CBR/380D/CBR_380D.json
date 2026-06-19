@@ -1,0 +1,58 @@
+{
+    "name": "CBR_380D",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "CGGCCG",
+                "modifications": [
+                    {
+                        "modificationType": "G49",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 4
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CGGCCG",
+                "modifications": [
+                    {
+                        "modificationType": "G49",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 4
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "DM8"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "DM8"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

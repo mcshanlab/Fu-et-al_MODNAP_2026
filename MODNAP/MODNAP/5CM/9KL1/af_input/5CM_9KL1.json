@@ -1,0 +1,40 @@
+{
+    "name": "5CM_9KL1",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GAAGAAGAG"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CTCTTCTTC",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 1
+                    },
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 9
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "SPM"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

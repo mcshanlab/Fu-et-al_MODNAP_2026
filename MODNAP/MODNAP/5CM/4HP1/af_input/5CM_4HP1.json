@@ -1,0 +1,56 @@
+{
+    "name": "5CM_4HP1",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "C",
+                "sequence": "NKKRKRCGVCVPCLRKEPCGACYNCVNRSTSHQICKMRKCEQLKKKRVVPM"
+            }
+        },
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "GCCACCGGTGGC",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "GCCACCGGTGGC",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

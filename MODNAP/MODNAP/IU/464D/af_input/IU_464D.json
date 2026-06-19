@@ -1,0 +1,44 @@
+{
+    "name": "IU_464D",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "UAGCUCC"
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "GGGGCUA",
+                "modifications": [
+                    {
+                        "modificationType": "IU",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "NA"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

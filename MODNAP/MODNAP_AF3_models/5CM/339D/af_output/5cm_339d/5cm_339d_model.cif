@@ -1,0 +1,568 @@
+# By using this file you agree to the legally binding terms of use found at
+# https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+# To request access to the AlphaFold 3 model parameters, follow the process set
+# out at https://github.com/google-deepmind/alphafold3. You may only use these if
+# received directly from Google. Use is subject to terms of use available at
+# https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+data_5cm_339d
+#
+_entry.id 5cm_339d
+#
+loop_
+_atom_type.symbol
+C 
+N 
+O 
+P 
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+"Google DeepMind" 1 
+"Isomorphic Labs" 2 
+#
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic
+_audit_conform.dict_name     mmcif_ma.dic
+_audit_conform.dict_version  1.4.5
+#
+loop_
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.id
+_chem_comp.mon_nstd_flag
+_chem_comp.name
+_chem_comp.pdbx_smiles
+_chem_comp.pdbx_synonyms
+_chem_comp.type
+"C10 H16 N3 O7 P" 321.224 5CM n "5-METHYL-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE" CC1=CN([C@H]2C[C@H](O)[C@@H](CO[P](O)(O)=O)O2)C(=O)N=C1N    ? "DNA LINKING" 
+"C9 H14 N3 O7 P"  307.197 DC  y "2'-DEOXYCYTIDINE-5'-MONOPHOSPHATE"           NC1=NC(=O)N(C=C1)[C@H]2C[C@H](O)[C@@H](CO[P](O)(O)=O)O2     ? "DNA LINKING" 
+"C10 H14 N5 O7 P" 347.221 DG  y "2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE"          NC1=Nc2n(cnc2C(=O)N1)[C@H]3C[C@H](O)[C@@H](CO[P](O)(O)=O)O3 ? "DNA LINKING" 
+#
+_citation.book_publisher          ?
+_citation.country                 UK
+_citation.id                      primary
+_citation.journal_full            Nature
+_citation.journal_id_ASTM         NATUAS
+_citation.journal_id_CSD          0006
+_citation.journal_id_ISSN         0028-0836
+_citation.journal_volume          630
+_citation.page_first              493
+_citation.page_last               500
+_citation.pdbx_database_id_DOI    10.1038/s41586-024-07487-w
+_citation.pdbx_database_id_PubMed 38718835
+_citation.title                   "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+_citation.year                    2024
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+primary "Google DeepMind" 1 
+primary "Isomorphic Labs" 2 
+#
+loop_
+_entity.id
+_entity.pdbx_description
+_entity.type
+1 . polymer 
+2 . polymer 
+#
+loop_
+_entity_poly.entity_id
+_entity_poly.pdbx_strand_id
+_entity_poly.type
+1 A polydeoxyribonucleotide 
+2 B polydeoxyribonucleotide 
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.hetero
+_entity_poly_seq.mon_id
+_entity_poly_seq.num
+1 n DG  1 
+1 n 5CM 2 
+1 n DG  3 
+1 n DC  4 
+1 n DG  5 
+1 n 5CM 6 
+1 n DG  7 
+1 n DC  8 
+2 n DG  1 
+2 n 5CM 2 
+2 n DG  3 
+2 n DC  4 
+2 n DG  5 
+2 n 5CM 6 
+2 n DG  7 
+2 n DC  8 
+#
+_ma_data.content_type "model coordinates"
+_ma_data.id           1
+_ma_data.name         Model
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold-beta-20231127 (3.0.0 @ 2026-06-10 20:38:14)"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 91.99
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+_ma_software_group.group_id    1
+_ma_software_group.ordinal_id  1
+_ma_software_group.software_id 1
+#
+loop_
+_ma_target_entity.data_id
+_ma_target_entity.entity_id
+_ma_target_entity.origin
+1 1 . 
+1 2 . 
+#
+loop_
+_ma_target_entity_instance.asym_id
+_ma_target_entity_instance.details
+_ma_target_entity_instance.entity_id
+A . 1 
+B . 2 
+#
+loop_
+_pdbx_data_usage.details
+_pdbx_data_usage.id
+_pdbx_data_usage.type
+_pdbx_data_usage.url
+;Non-commercial use only, by using this file you agree to the terms of use found
+at https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+To request access to the AlphaFold 3 model parameters, follow the process set
+out at https://github.com/google-deepmind/alphafold3. You may only use these if
+received directly from Google. Use is subject to terms of use available at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+
+;
+1 license    https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md 
+;AlphaFold 3 and its output are not intended for, have not been validated for,
+and are not approved for clinical use. They are provided "as-is" without any
+warranty of any kind, whether expressed or implied. No warranty is given that
+use shall not infringe the rights of any third party.
+
+;
+2 disclaimer ?                                                                              
+#
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.hetero
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.seq_id
+A 1 1 n DG  . 1 A 1 
+A 2 1 n 5CM . 2 A 2 
+A 3 1 n DG  . 3 A 3 
+A 4 1 n DC  . 4 A 4 
+A 5 1 n DG  . 5 A 5 
+A 6 1 n 5CM . 6 A 6 
+A 7 1 n DG  . 7 A 7 
+A 8 1 n DC  . 8 A 8 
+B 1 2 n DG  . 1 B 1 
+B 2 2 n 5CM . 2 B 2 
+B 3 2 n DG  . 3 B 3 
+B 4 2 n DC  . 4 B 4 
+B 5 2 n DG  . 5 B 5 
+B 6 2 n 5CM . 6 B 6 
+B 7 2 n DG  . 7 B 7 
+B 8 2 n DC  . 8 B 8 
+#
+_software.classification other
+_software.date           ?
+_software.description    "Structure prediction"
+_software.name           AlphaFold
+_software.pdbx_ordinal   1
+_software.type           package
+_software.version        "AlphaFold-beta-20231127 (3b9d4698b82408be40a9ab831a3ea8f0138172befe3e464f5a86b22443b3cd3a)"
+#
+loop_
+_struct_asym.entity_id
+_struct_asym.id
+1 A 
+2 B 
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM   1   O OP3   . DG  A 1 1 ? 10.338  -7.332  -5.923  1.00 78.40 1 A 1 
+ATOM   2   P P     . DG  A 1 1 ? 9.196   -7.233  -6.271  1.00 76.97 1 A 1 
+ATOM   3   O OP1   . DG  A 1 1 ? 9.122   -6.548  -7.584  1.00 70.14 1 A 1 
+ATOM   4   O OP2   . DG  A 1 1 ? 8.760   -6.494  -5.055  1.00 69.94 1 A 1 
+ATOM   5   O "O5'" . DG  A 1 1 ? 8.188   -8.486  -6.377  1.00 76.69 1 A 1 
+ATOM   6   C "C5'" . DG  A 1 1 ? 8.138   -9.354  -7.518  1.00 80.78 1 A 1 
+ATOM   7   C "C4'" . DG  A 1 1 ? 7.076   -10.419 -7.309  1.00 83.94 1 A 1 
+ATOM   8   O "O4'" . DG  A 1 1 ? 7.425   -11.252 -6.194  1.00 85.20 1 A 1 
+ATOM   9   C "C3'" . DG  A 1 1 ? 5.705   -9.873  -6.962  1.00 85.44 1 A 1 
+ATOM   10  O "O3'" . DG  A 1 1 ? 5.003   -9.494  -8.139  1.00 85.03 1 A 1 
+ATOM   11  C "C2'" . DG  A 1 1 ? 5.074   -11.075 -6.295  1.00 86.56 1 A 1 
+ATOM   12  C "C1'" . DG  A 1 1 ? 6.240   -11.633 -5.497  1.00 87.83 1 A 1 
+ATOM   13  N N9    . DG  A 1 1 ? 6.307   -11.109 -4.138  1.00 87.22 1 A 1 
+ATOM   14  C C8    . DG  A 1 1 ? 7.147   -10.150 -3.635  1.00 87.10 1 A 1 
+ATOM   15  N N7    . DG  A 1 1 ? 6.952   -9.902  -2.370  1.00 89.20 1 A 1 
+ATOM   16  C C5    . DG  A 1 1 ? 5.914   -10.748 -2.012  1.00 90.89 1 A 1 
+ATOM   17  C C6    . DG  A 1 1 ? 5.250   -10.939 -0.773  1.00 90.44 1 A 1 
+ATOM   18  O O6    . DG  A 1 1 ? 5.471   -10.381 0.304   1.00 89.81 1 A 1 
+ATOM   19  N N1    . DG  A 1 1 ? 4.243   -11.894 -0.859  1.00 91.43 1 A 1 
+ATOM   20  C C2    . DG  A 1 1 ? 3.913   -12.584 -2.002  1.00 90.77 1 A 1 
+ATOM   21  N N2    . DG  A 1 1 ? 2.915   -13.465 -1.900  1.00 90.34 1 A 1 
+ATOM   22  N N3    . DG  A 1 1 ? 4.522   -12.420 -3.166  1.00 90.93 1 A 1 
+ATOM   23  C C4    . DG  A 1 1 ? 5.505   -11.494 -3.103  1.00 90.01 1 A 1 
+HETATM 24  N N1    . 5CM A 1 2 ? 1.660   -10.170 -3.730  1.00 92.48 2 A 1 
+HETATM 25  C C2    . 5CM A 1 2 ? 1.316   -10.252 -2.396  1.00 92.83 2 A 1 
+HETATM 26  N N3    . 5CM A 1 2 ? 1.967   -9.484  -1.493  1.00 92.72 2 A 1 
+HETATM 27  C C4    . 5CM A 1 2 ? 2.936   -8.626  -1.878  1.00 91.48 2 A 1 
+HETATM 28  C C5    . 5CM A 1 2 ? 3.279   -8.503  -3.260  1.00 91.33 2 A 1 
+HETATM 29  C C5A   . 5CM A 1 2 ? 4.334   -7.565  -3.713  1.00 87.99 2 A 1 
+HETATM 30  C C6    . 5CM A 1 2 ? 2.621   -9.294  -4.139  1.00 92.16 2 A 1 
+HETATM 31  O O2    . 5CM A 1 2 ? 0.428   -11.012 -2.053  1.00 93.70 2 A 1 
+HETATM 32  N N4    . 5CM A 1 2 ? 3.546   -7.892  -0.942  1.00 90.93 2 A 1 
+HETATM 33  C "C1'" . 5CM A 1 2 ? 0.943   -11.032 -4.665  1.00 92.35 2 A 1 
+HETATM 34  C "C2'" . 5CM A 1 2 ? -0.368  -10.381 -5.117  1.00 91.55 2 A 1 
+HETATM 35  C "C3'" . 5CM A 1 2 ? 0.044   -9.640  -6.339  1.00 91.64 2 A 1 
+HETATM 36  C "C4'" . 5CM A 1 2 ? 1.023   -10.658 -6.974  1.00 91.14 2 A 1 
+HETATM 37  O "O4'" . 5CM A 1 2 ? 1.751   -11.122 -5.802  1.00 91.05 2 A 1 
+HETATM 38  O "O3'" . 5CM A 1 2 ? -1.054  -9.376  -7.205  1.00 90.86 2 A 1 
+HETATM 39  C "C5'" . 5CM A 1 2 ? 2.016   -10.050 -7.960  1.00 89.78 2 A 1 
+HETATM 40  O "O5'" . 5CM A 1 2 ? 2.694   -8.945  -7.367  1.00 88.90 2 A 1 
+HETATM 41  P P     . 5CM A 1 2 ? 3.910   -8.262  -8.121  1.00 88.23 2 A 1 
+HETATM 42  O OP1   . 5CM A 1 2 ? 3.557   -8.051  -9.525  1.00 85.02 2 A 1 
+HETATM 43  O OP2   . 5CM A 1 2 ? 4.396   -7.141  -7.288  1.00 85.40 2 A 1 
+ATOM   44  P P     . DG  A 1 3 ? -1.741  -7.960  -7.052  1.00 89.76 3 A 1 
+ATOM   45  O OP1   . DG  A 1 3 ? -2.670  -7.935  -8.200  1.00 85.82 3 A 1 
+ATOM   46  O OP2   . DG  A 1 3 ? -0.765  -6.862  -6.856  1.00 84.65 3 A 1 
+ATOM   47  O "O5'" . DG  A 1 3 ? -2.578  -8.068  -5.694  1.00 89.29 3 A 1 
+ATOM   48  C "C5'" . DG  A 1 3 ? -3.648  -8.989  -5.592  1.00 89.86 3 A 1 
+ATOM   49  C "C4'" . DG  A 1 3 ? -4.121  -9.091  -4.158  1.00 92.11 3 A 1 
+ATOM   50  O "O4'" . DG  A 1 3 ? -3.031  -9.474  -3.303  1.00 92.20 3 A 1 
+ATOM   51  C "C3'" . DG  A 1 3 ? -4.630  -7.792  -3.546  1.00 92.24 3 A 1 
+ATOM   52  O "O3'" . DG  A 1 3 ? -5.975  -7.558  -3.910  1.00 91.66 3 A 1 
+ATOM   53  C "C2'" . DG  A 1 3 ? -4.518  -8.117  -2.062  1.00 92.39 3 A 1 
+ATOM   54  C "C1'" . DG  A 1 3 ? -3.223  -8.903  -2.016  1.00 93.57 3 A 1 
+ATOM   55  N N9    . DG  A 1 3 ? -2.070  -8.067  -1.689  1.00 93.38 3 A 1 
+ATOM   56  C C8    . DG  A 1 3 ? -1.099  -7.577  -2.527  1.00 93.17 3 A 1 
+ATOM   57  N N7    . DG  A 1 3 ? -0.206  -6.851  -1.910  1.00 93.89 3 A 1 
+ATOM   58  C C5    . DG  A 1 3 ? -0.622  -6.858  -0.583  1.00 94.81 3 A 1 
+ATOM   59  C C6    . DG  A 1 3 ? -0.063  -6.245  0.568   1.00 94.58 3 A 1 
+ATOM   60  O O6    . DG  A 1 3 ? 0.954   -5.555  0.646   1.00 93.99 3 A 1 
+ATOM   61  N N1    . DG  A 1 3 ? -0.815  -6.505  1.712   1.00 95.03 3 A 1 
+ATOM   62  C C2    . DG  A 1 3 ? -1.960  -7.264  1.744   1.00 94.70 3 A 1 
+ATOM   63  N N2    . DG  A 1 3 ? -2.559  -7.400  2.931   1.00 94.27 3 A 1 
+ATOM   64  N N3    . DG  A 1 3 ? -2.487  -7.845  0.681   1.00 94.79 3 A 1 
+ATOM   65  C C4    . DG  A 1 3 ? -1.773  -7.603  -0.440  1.00 94.42 3 A 1 
+ATOM   66  P P     . DC  A 1 4 ? -6.653  -6.092  -3.795  1.00 92.34 4 A 1 
+ATOM   67  O OP1   . DC  A 1 4 ? -8.023  -6.202  -4.344  1.00 90.73 4 A 1 
+ATOM   68  O OP2   . DC  A 1 4 ? -5.715  -5.084  -4.346  1.00 90.98 4 A 1 
+ATOM   69  O "O5'" . DC  A 1 4 ? -6.739  -5.822  -2.222  1.00 91.92 4 A 1 
+ATOM   70  C "C5'" . DC  A 1 4 ? -7.590  -6.596  -1.391  1.00 90.88 4 A 1 
+ATOM   71  C "C4'" . DC  A 1 4 ? -7.458  -6.134  0.050   1.00 92.62 4 A 1 
+ATOM   72  O "O4'" . DC  A 1 4 ? -6.118  -6.378  0.520   1.00 92.74 4 A 1 
+ATOM   73  C "C3'" . DC  A 1 4 ? -7.656  -4.641  0.241   1.00 92.93 4 A 1 
+ATOM   74  O "O3'" . DC  A 1 4 ? -9.040  -4.355  0.333   1.00 91.82 4 A 1 
+ATOM   75  C "C2'" . DC  A 1 4 ? -6.941  -4.418  1.563   1.00 92.28 4 A 1 
+ATOM   76  C "C1'" . DC  A 1 4 ? -5.751  -5.360  1.443   1.00 93.30 4 A 1 
+ATOM   77  N N1    . DC  A 1 4 ? -4.506  -4.708  0.961   1.00 94.10 4 A 1 
+ATOM   78  C C2    . DC  A 1 4 ? -3.692  -4.080  1.900   1.00 94.17 4 A 1 
+ATOM   79  O O2    . DC  A 1 4 ? -4.046  -4.056  3.088   1.00 94.13 4 A 1 
+ATOM   80  N N3    . DC  A 1 4 ? -2.534  -3.504  1.494   1.00 94.77 4 A 1 
+ATOM   81  C C4    . DC  A 1 4 ? -2.182  -3.540  0.206   1.00 94.66 4 A 1 
+ATOM   82  N N4    . DC  A 1 4 ? -1.027  -2.969  -0.143  1.00 94.25 4 A 1 
+ATOM   83  C C5    . DC  A 1 4 ? -3.004  -4.162  -0.778  1.00 94.93 4 A 1 
+ATOM   84  C C6    . DC  A 1 4 ? -4.149  -4.729  -0.355  1.00 94.70 4 A 1 
+ATOM   85  P P     . DG  A 1 5 ? -9.597  -2.864  0.142   1.00 92.59 5 A 1 
+ATOM   86  O OP1   . DG  A 1 5 ? -11.071 -2.944  0.162   1.00 90.01 5 A 1 
+ATOM   87  O OP2   . DG  A 1 5 ? -8.912  -2.195  -1.005  1.00 89.79 5 A 1 
+ATOM   88  O "O5'" . DG  A 1 5 ? -9.109  -2.185  1.501   1.00 91.85 5 A 1 
+ATOM   89  C "C5'" . DG  A 1 5 ? -8.676  -0.850  1.537   1.00 91.87 5 A 1 
+ATOM   90  C "C4'" . DG  A 1 5 ? -8.111  -0.556  2.900   1.00 93.84 5 A 1 
+ATOM   91  O "O4'" . DG  A 1 5 ? -6.916  -1.336  3.103   1.00 93.89 5 A 1 
+ATOM   92  C "C3'" . DG  A 1 5 ? -7.688  0.889   3.089   1.00 93.91 5 A 1 
+ATOM   93  O "O3'" . DG  A 1 5 ? -8.785  1.653   3.547   1.00 93.28 5 A 1 
+ATOM   94  C "C2'" . DG  A 1 5 ? -6.613  0.753   4.153   1.00 93.99 5 A 1 
+ATOM   95  C "C1'" . DG  A 1 5 ? -5.926  -0.535  3.735   1.00 95.01 5 A 1 
+ATOM   96  N N9    . DG  A 1 5 ? -4.823  -0.342  2.788   1.00 95.15 5 A 1 
+ATOM   97  C C8    . DG  A 1 5 ? -4.748  -0.735  1.468   1.00 94.90 5 A 1 
+ATOM   98  N N7    . DG  A 1 5 ? -3.613  -0.424  0.899   1.00 95.31 5 A 1 
+ATOM   99  C C5    . DG  A 1 5 ? -2.898  0.219   1.902   1.00 95.95 5 A 1 
+ATOM   100 C C6    . DG  A 1 5 ? -1.599  0.786   1.890   1.00 95.79 5 A 1 
+ATOM   101 O O6    . DG  A 1 5 ? -0.790  0.822   0.959   1.00 95.30 5 A 1 
+ATOM   102 N N1    . DG  A 1 5 ? -1.266  1.347   3.120   1.00 96.09 5 A 1 
+ATOM   103 C C2    . DG  A 1 5 ? -2.080  1.356   4.225   1.00 95.94 5 A 1 
+ATOM   104 N N2    . DG  A 1 5 ? -1.597  1.947   5.318   1.00 95.60 5 A 1 
+ATOM   105 N N3    . DG  A 1 5 ? -3.291  0.827   4.251   1.00 95.87 5 A 1 
+ATOM   106 C C4    . DG  A 1 5 ? -3.636  0.277   3.067   1.00 95.69 5 A 1 
+HETATM 107 N N1    . 5CM A 1 6 ? -3.885  4.395   3.689   1.00 96.89 6 A 1 
+HETATM 108 C C2    . 5CM A 1 6 ? -2.586  4.712   3.345   1.00 96.82 6 A 1 
+HETATM 109 N N3    . 5CM A 1 6 ? -2.140  4.408   2.101   1.00 96.61 6 A 1 
+HETATM 110 C C4    . 5CM A 1 6 ? -2.951  3.831   1.188   1.00 95.96 6 A 1 
+HETATM 111 C C5    . 5CM A 1 6 ? -4.307  3.540   1.502   1.00 96.47 6 A 1 
+HETATM 112 C C5A   . 5CM A 1 6 ? -5.222  2.926   0.497   1.00 95.13 6 A 1 
+HETATM 113 C C6    . 5CM A 1 6 ? -4.729  3.837   2.762   1.00 96.52 6 A 1 
+HETATM 114 O O2    . 5CM A 1 6 ? -1.859  5.250   4.159   1.00 96.59 6 A 1 
+HETATM 115 N N4    . 5CM A 1 6 ? -2.429  3.557   -0.015  1.00 95.04 6 A 1 
+HETATM 116 C "C1'" . 5CM A 1 6 ? -4.314  4.725   5.047   1.00 96.42 6 A 1 
+HETATM 117 C "C2'" . 5CM A 1 6 ? -4.777  6.181   5.119   1.00 95.34 6 A 1 
+HETATM 118 C "C3'" . 5CM A 1 6 ? -6.228  6.076   4.854   1.00 95.59 6 A 1 
+HETATM 119 C "C4'" . 5CM A 1 6 ? -6.588  4.806   5.621   1.00 95.73 6 A 1 
+HETATM 120 O "O4'" . 5CM A 1 6 ? -5.484  3.911   5.348   1.00 95.77 6 A 1 
+HETATM 121 O "O3'" . 5CM A 1 6 ? -6.955  7.157   5.347   1.00 95.57 6 A 1 
+HETATM 122 C "C5'" . 5CM A 1 6 ? -7.848  4.151   5.170   1.00 95.46 6 A 1 
+HETATM 123 O "O5'" . 5CM A 1 6 ? -7.821  3.956   3.741   1.00 95.48 6 A 1 
+HETATM 124 P P     . 5CM A 1 6 ? -8.993  3.158   3.020   1.00 95.16 6 A 1 
+HETATM 125 O OP1   . 5CM A 1 6 ? -10.280 3.614   3.610   1.00 94.83 6 A 1 
+HETATM 126 O OP2   . 5CM A 1 6 ? -8.765  3.204   1.573   1.00 95.31 6 A 1 
+ATOM   127 P P     . DG  A 1 7 ? -7.327  8.331   4.336   1.00 92.87 7 A 1 
+ATOM   128 O OP1   . DG  A 1 7 ? -8.281  9.191   5.070   1.00 90.97 7 A 1 
+ATOM   129 O OP2   . DG  A 1 7 ? -7.668  7.809   2.991   1.00 90.06 7 A 1 
+ATOM   130 O "O5'" . DG  A 1 7 ? -5.926  9.092   4.181   1.00 91.93 7 A 1 
+ATOM   131 C "C5'" . DG  A 1 7 ? -5.340  9.733   5.307   1.00 91.61 7 A 1 
+ATOM   132 C "C4'" . DG  A 1 7 ? -3.943  10.199  4.972   1.00 93.17 7 A 1 
+ATOM   133 O "O4'" . DG  A 1 7 ? -3.137  9.076   4.583   1.00 93.01 7 A 1 
+ATOM   134 C "C3'" . DG  A 1 7 ? -3.844  11.153  3.796   1.00 92.97 7 A 1 
+ATOM   135 O "O3'" . DG  A 1 7 ? -4.139  12.479  4.194   1.00 92.33 7 A 1 
+ATOM   136 C "C2'" . DG  A 1 7 ? -2.369  10.998  3.444   1.00 92.81 7 A 1 
+ATOM   137 C "C1'" . DG  A 1 7 ? -2.154  9.515   3.651   1.00 93.98 7 A 1 
+ATOM   138 N N9    . DG  A 1 7 ? -2.300  8.735   2.426   1.00 94.08 7 A 1 
+ATOM   139 C C8    . DG  A 1 7 ? -3.367  7.977   2.007   1.00 93.77 7 A 1 
+ATOM   140 N N7    . DG  A 1 7 ? -3.167  7.395   0.855   1.00 94.28 7 A 1 
+ATOM   141 C C5    . DG  A 1 7 ? -1.888  7.800   0.488   1.00 95.05 7 A 1 
+ATOM   142 C C6    . DG  A 1 7 ? -1.114  7.499   -0.660  1.00 94.78 7 A 1 
+ATOM   143 O O6    . DG  A 1 7 ? -1.411  6.776   -1.610  1.00 94.25 7 A 1 
+ATOM   144 N N1    . DG  A 1 7 ? 0.124   8.135   -0.627  1.00 95.24 7 A 1 
+ATOM   145 C C2    . DG  A 1 7 ? 0.564   8.954   0.383   1.00 94.92 7 A 1 
+ATOM   146 N N2    . DG  A 1 7 ? 1.782   9.487   0.242   1.00 94.52 7 A 1 
+ATOM   147 N N3    . DG  A 1 7 ? -0.144  9.240   1.461   1.00 94.65 7 A 1 
+ATOM   148 C C4    . DG  A 1 7 ? -1.352  8.633   1.450   1.00 94.37 7 A 1 
+ATOM   149 P P     . DC  A 1 8 ? -4.659  13.559  3.129   1.00 93.37 8 A 1 
+ATOM   150 O OP1   . DC  A 1 8 ? -5.002  14.768  3.907   1.00 92.67 8 A 1 
+ATOM   151 O OP2   . DC  A 1 8 ? -5.668  12.940  2.237   1.00 92.46 8 A 1 
+ATOM   152 O "O5'" . DC  A 1 8 ? -3.376  13.856  2.231   1.00 92.54 8 A 1 
+ATOM   153 C "C5'" . DC  A 1 8 ? -2.244  14.533  2.777   1.00 90.07 8 A 1 
+ATOM   154 C "C4'" . DC  A 1 8 ? -1.147  14.618  1.736   1.00 91.12 8 A 1 
+ATOM   155 O "O4'" . DC  A 1 8 ? -0.729  13.293  1.370   1.00 90.72 8 A 1 
+ATOM   156 C "C3'" . DC  A 1 8 ? -1.579  15.255  0.421   1.00 90.77 8 A 1 
+ATOM   157 O "O3'" . DC  A 1 8 ? -1.514  16.675  0.487   1.00 89.27 8 A 1 
+ATOM   158 C "C2'" . DC  A 1 8 ? -0.527  14.704  -0.525  1.00 89.87 8 A 1 
+ATOM   159 C "C1'" . DC  A 1 8 ? -0.302  13.297  0.017   1.00 90.86 8 A 1 
+ATOM   160 N N1    . DC  A 1 8 ? -1.049  12.261  -0.729  1.00 91.89 8 A 1 
+ATOM   161 C C2    . DC  A 1 8 ? -0.438  11.715  -1.858  1.00 91.87 8 A 1 
+ATOM   162 O O2    . DC  A 1 8 ? 0.681   12.129  -2.193  1.00 91.81 8 A 1 
+ATOM   163 N N3    . DC  A 1 8 ? -1.082  10.757  -2.564  1.00 92.28 8 A 1 
+ATOM   164 C C4    . DC  A 1 8 ? -2.291  10.339  -2.176  1.00 92.10 8 A 1 
+ATOM   165 N N4    . DC  A 1 8 ? -2.883  9.390   -2.903  1.00 91.63 8 A 1 
+ATOM   166 C C5    . DC  A 1 8 ? -2.944  10.885  -1.031  1.00 92.38 8 A 1 
+ATOM   167 C C6    . DC  A 1 8 ? -2.287  11.839  -0.344  1.00 92.29 8 A 1 
+ATOM   168 O OP3   . DG  B 2 1 ? 1.214   4.175   -11.987 1.00 78.34 1 B 1 
+ATOM   169 P P     . DG  B 2 1 ? 2.082   4.062   -11.161 1.00 76.95 1 B 1 
+ATOM   170 O OP1   . DG  B 2 1 ? 3.156   3.174   -11.662 1.00 69.98 1 B 1 
+ATOM   171 O OP2   . DG  B 2 1 ? 1.187   3.547   -10.081 1.00 70.27 1 B 1 
+ATOM   172 O "O5'" . DG  B 2 1 ? 2.793   5.362   -10.526 1.00 76.84 1 B 1 
+ATOM   173 C "C5'" . DG  B 2 1 ? 3.831   6.076   -11.196 1.00 81.27 1 B 1 
+ATOM   174 C "C4'" . DG  B 2 1 ? 4.263   7.267   -10.359 1.00 84.17 1 B 1 
+ATOM   175 O "O4'" . DG  B 2 1 ? 3.173   8.195   -10.215 1.00 85.35 1 B 1 
+ATOM   176 C "C3'" . DG  B 2 1 ? 4.652   6.920   -8.932  1.00 85.72 1 B 1 
+ATOM   177 O "O3'" . DG  B 2 1 ? 6.002   6.476   -8.870  1.00 85.15 1 B 1 
+ATOM   178 C "C2'" . DG  B 2 1 ? 4.475   8.262   -8.242  1.00 86.57 1 B 1 
+ATOM   179 C "C1'" . DG  B 2 1 ? 3.217   8.779   -8.914  1.00 87.91 1 B 1 
+ATOM   180 N N9    . DG  B 2 1 ? 1.995   8.423   -8.200  1.00 87.45 1 B 1 
+ATOM   181 C C8    . DG  B 2 1 ? 1.071   7.462   -8.516  1.00 87.32 1 B 1 
+ATOM   182 N N7    . DG  B 2 1 ? 0.084   7.394   -7.666  1.00 89.28 1 B 1 
+ATOM   183 C C5    . DG  B 2 1 ? 0.372   8.370   -6.725  1.00 90.91 1 B 1 
+ATOM   184 C C6    . DG  B 2 1 ? -0.325  8.774   -5.559  1.00 90.48 1 B 1 
+ATOM   185 O O6    . DG  B 2 1 ? -1.389  8.338   -5.113  1.00 89.90 1 B 1 
+ATOM   186 N N1    . DG  B 2 1 ? 0.332   9.799   -4.888  1.00 91.43 1 B 1 
+ATOM   187 C C2    . DG  B 2 1 ? 1.515   10.367  -5.293  1.00 90.82 1 B 1 
+ATOM   188 N N2    . DG  B 2 1 ? 2.005   11.345  -4.521  1.00 90.46 1 B 1 
+ATOM   189 N N3    . DG  B 2 1 ? 2.179   10.002  -6.378  1.00 91.03 1 B 1 
+ATOM   190 C C4    . DG  B 2 1 ? 1.555   9.005   -7.046  1.00 90.10 1 B 1 
+HETATM 191 N N1    . 5CM B 2 2 ? 4.044   8.053   -3.867  1.00 92.92 2 B 1 
+HETATM 192 C C2    . 5CM B 2 2 ? 3.087   8.327   -2.898  1.00 92.95 2 B 1 
+HETATM 193 N N3    . 5CM B 2 2 ? 1.935   7.616   -2.884  1.00 93.14 2 B 1 
+HETATM 194 C C4    . 5CM B 2 2 ? 1.704   6.644   -3.792  1.00 91.60 2 B 1 
+HETATM 195 C C5    . 5CM B 2 2 ? 2.689   6.332   -4.780  1.00 91.41 2 B 1 
+HETATM 196 C C5A   . 5CM B 2 2 ? 2.469   5.259   -5.777  1.00 88.07 2 B 1 
+HETATM 197 C C6    . 5CM B 2 2 ? 3.823   7.062   -4.780  1.00 92.40 2 B 1 
+HETATM 198 O O2    . 5CM B 2 2 ? 3.304   9.184   -2.068  1.00 93.87 2 B 1 
+HETATM 199 N N4    . 5CM B 2 2 ? 0.550   5.985   -3.727  1.00 91.11 2 B 1 
+HETATM 200 C "C1'" . 5CM B 2 2 ? 5.279   8.856   -3.846  1.00 93.10 2 B 1 
+HETATM 201 C "C2'" . 5CM B 2 2 ? 6.306   8.269   -2.874  1.00 92.11 2 B 1 
+HETATM 202 C "C3'" . 5CM B 2 2 ? 7.079   7.351   -3.748  1.00 92.02 2 B 1 
+HETATM 203 C "C4'" . 5CM B 2 2 ? 7.179   8.197   -5.039  1.00 92.08 2 B 1 
+HETATM 204 O "O4'" . 5CM B 2 2 ? 5.813   8.748   -5.134  1.00 91.41 2 B 1 
+HETATM 205 O "O3'" . 5CM B 2 2 ? 8.372   7.087   -3.237  1.00 91.08 2 B 1 
+HETATM 206 C "C5'" . 5CM B 2 2 ? 7.462   7.394   -6.314  1.00 90.66 2 B 1 
+HETATM 207 O "O5'" . 5CM B 2 2 ? 6.560   6.300   -6.432  1.00 89.57 2 B 1 
+HETATM 208 P P     . 5CM B 2 2 ? 6.523   5.411   -7.747  1.00 88.85 2 B 1 
+HETATM 209 O OP1   . 5CM B 2 2 ? 7.917   5.058   -8.112  1.00 85.52 2 B 1 
+HETATM 210 O OP2   . 5CM B 2 2 ? 5.500   4.357   -7.566  1.00 85.99 2 B 1 
+ATOM   211 P P     . DG  B 2 3 ? 8.508   5.756   -2.359  1.00 89.71 3 B 1 
+ATOM   212 O OP1   . DG  B 2 3 ? 9.972   5.667   -2.164  1.00 85.99 3 B 1 
+ATOM   213 O OP2   . DG  B 2 3 ? 7.751   4.611   -2.920  1.00 84.84 3 B 1 
+ATOM   214 O "O5'" . DG  B 2 3 ? 7.805   6.115   -0.962  1.00 89.41 3 B 1 
+ATOM   215 C "C5'" . DG  B 2 3 ? 8.334   7.143   -0.143  1.00 89.77 3 B 1 
+ATOM   216 C "C4'" . DG  B 2 3 ? 7.371   7.462   0.980   1.00 91.89 3 B 1 
+ATOM   217 O "O4'" . DG  B 2 3 ? 6.094   7.846   0.444   1.00 91.91 3 B 1 
+ATOM   218 C "C3'" . DG  B 2 3 ? 7.051   6.307   1.914   1.00 92.00 3 B 1 
+ATOM   219 O "O3'" . DG  B 2 3 ? 8.062   6.161   2.894   1.00 91.53 3 B 1 
+ATOM   220 C "C2'" . DG  B 2 3 ? 5.754   6.801   2.538   1.00 92.03 3 B 1 
+ATOM   221 C "C1'" . DG  B 2 3 ? 5.072   7.454   1.354   1.00 93.33 3 B 1 
+ATOM   222 N N9    . DG  B 2 3 ? 4.144   6.562   0.665   1.00 93.04 3 B 1 
+ATOM   223 C C8    . DG  B 2 3 ? 4.316   5.893   -0.525  1.00 92.75 3 B 1 
+ATOM   224 N N7    . DG  B 2 3 ? 3.281   5.168   -0.863  1.00 93.46 3 B 1 
+ATOM   225 C C5    . DG  B 2 3 ? 2.374   5.372   0.169   1.00 94.39 3 B 1 
+ATOM   226 C C6    . DG  B 2 3 ? 1.068   4.853   0.370   1.00 94.08 3 B 1 
+ATOM   227 O O6    . DG  B 2 3 ? 0.429   4.093   -0.356  1.00 93.43 3 B 1 
+ATOM   228 N N1    . DG  B 2 3 ? 0.507   5.311   1.561   1.00 94.55 3 B 1 
+ATOM   229 C C2    . DG  B 2 3 ? 1.124   6.165   2.444   1.00 94.24 3 B 1 
+ATOM   230 N N2    . DG  B 2 3 ? 0.435   6.495   3.541   1.00 93.84 3 B 1 
+ATOM   231 N N3    . DG  B 2 3 ? 2.338   6.661   2.267   1.00 94.30 3 B 1 
+ATOM   232 C C4    . DG  B 2 3 ? 2.901   6.227   1.117   1.00 93.90 3 B 1 
+ATOM   233 P P     . DC  B 2 4 ? 8.226   4.772   3.715   1.00 92.63 4 B 1 
+ATOM   234 O OP1   . DC  B 2 4 ? 9.421   4.945   4.573   1.00 91.14 4 B 1 
+ATOM   235 O OP2   . DC  B 2 4 ? 8.143   3.629   2.776   1.00 91.24 4 B 1 
+ATOM   236 O "O5'" . DC  B 2 4 ? 6.925   4.695   4.641   1.00 92.34 4 B 1 
+ATOM   237 C "C5'" . DC  B 2 4 ? 6.715   5.634   5.689   1.00 91.18 4 B 1 
+ATOM   238 C "C4'" . DC  B 2 4 ? 5.406   5.321   6.391   1.00 92.96 4 B 1 
+ATOM   239 O "O4'" . DC  B 2 4 ? 4.304   5.509   5.482   1.00 92.97 4 B 1 
+ATOM   240 C "C3'" . DC  B 2 4 ? 5.273   3.881   6.848   1.00 93.27 4 B 1 
+ATOM   241 O "O3'" . DC  B 2 4 ? 5.919   3.715   8.099   1.00 92.31 4 B 1 
+ATOM   242 C "C2'" . DC  B 2 4 ? 3.765   3.744   6.963   1.00 92.50 4 B 1 
+ATOM   243 C "C1'" . DC  B 2 4 ? 3.280   4.568   5.779   1.00 93.53 4 B 1 
+ATOM   244 N N1    . DC  B 2 4 ? 2.997   3.767   4.561   1.00 94.23 4 B 1 
+ATOM   245 C C2    . DC  B 2 4 ? 1.733   3.190   4.435   1.00 94.18 4 B 1 
+ATOM   246 O O2    . DC  B 2 4 ? 0.911   3.336   5.349   1.00 94.05 4 B 1 
+ATOM   247 N N3    . DC  B 2 4 ? 1.438   2.480   3.320   1.00 94.59 4 B 1 
+ATOM   248 C C4    . DC  B 2 4 ? 2.348   2.333   2.355   1.00 94.40 4 B 1 
+ATOM   249 N N4    . DC  B 2 4 ? 2.009   1.633   1.273   1.00 93.93 4 B 1 
+ATOM   250 C C5    . DC  B 2 4 ? 3.652   2.897   2.465   1.00 94.65 4 B 1 
+ATOM   251 C C6    . DC  B 2 4 ? 3.928   3.602   3.578   1.00 94.48 4 B 1 
+ATOM   252 P P     . DG  B 2 5 ? 6.295   2.243   8.650   1.00 93.14 5 B 1 
+ATOM   253 O OP1   . DG  B 2 5 ? 7.031   2.446   9.922   1.00 90.78 5 B 1 
+ATOM   254 O OP2   . DG  B 2 5 ? 6.907   1.430   7.563   1.00 90.66 5 B 1 
+ATOM   255 O "O5'" . DG  B 2 5 ? 4.859   1.655   8.998   1.00 92.48 5 B 1 
+ATOM   256 C "C5'" . DG  B 2 5 ? 4.539   0.302   8.770   1.00 92.29 5 B 1 
+ATOM   257 C "C4'" . DG  B 2 5 ? 3.065   0.101   9.011   1.00 94.16 5 B 1 
+ATOM   258 O "O4'" . DG  B 2 5 ? 2.318   0.808   8.003   1.00 94.10 5 B 1 
+ATOM   259 C "C3'" . DG  B 2 5 ? 2.611   -1.341  8.906   1.00 94.19 5 B 1 
+ATOM   260 O "O3'" . DG  B 2 5 ? 2.753   -1.974  10.168  1.00 93.66 5 B 1 
+ATOM   261 C "C2'" . DG  B 2 5 ? 1.151   -1.168  8.533   1.00 94.24 5 B 1 
+ATOM   262 C "C1'" . DG  B 2 5 ? 1.217   0.020   7.586   1.00 95.21 5 B 1 
+ATOM   263 N N9    . DG  B 2 5 ? 1.430   -0.358  6.184   1.00 95.31 5 B 1 
+ATOM   264 C C8    . DG  B 2 5 ? 2.539   -0.132  5.395   1.00 95.01 5 B 1 
+ATOM   265 N N7    . DG  B 2 5 ? 2.404   -0.587  4.179   1.00 95.35 5 B 1 
+ATOM   266 C C5    . DG  B 2 5 ? 1.133   -1.149  4.164   1.00 95.92 5 B 1 
+ATOM   267 C C6    . DG  B 2 5 ? 0.423   -1.799  3.120   1.00 95.73 5 B 1 
+ATOM   268 O O6    . DG  B 2 5 ? 0.784   -2.000  1.958   1.00 95.21 5 B 1 
+ATOM   269 N N1    . DG  B 2 5 ? -0.833  -2.226  3.538   1.00 96.02 5 B 1 
+ATOM   270 C C2    . DG  B 2 5 ? -1.345  -2.049  4.800   1.00 95.90 5 B 1 
+ATOM   271 N N2    . DG  B 2 5 ? -2.566  -2.531  5.023   1.00 95.56 5 B 1 
+ATOM   272 N N3    . DG  B 2 5 ? -0.696  -1.442  5.779   1.00 95.79 5 B 1 
+ATOM   273 C C4    . DG  B 2 5 ? 0.527   -1.019  5.394   1.00 95.65 5 B 1 
+HETATM 274 N N1    . 5CM B 2 6 ? -0.178  -5.026  6.427   1.00 96.98 6 B 1 
+HETATM 275 C C2    . 5CM B 2 6 ? -0.604  -5.485  5.187   1.00 96.91 6 B 1 
+HETATM 276 N N3    . 5CM B 2 6 ? 0.228   -5.380  4.128   1.00 96.59 6 B 1 
+HETATM 277 C C4    . 5CM B 2 6 ? 1.472   -4.870  4.257   1.00 96.06 6 B 1 
+HETATM 278 C C5    . 5CM B 2 6 ? 1.957   -4.442  5.533   1.00 96.58 6 B 1 
+HETATM 279 C C5A   . 5CM B 2 6 ? 3.329   -3.907  5.701   1.00 95.17 6 B 1 
+HETATM 280 C C6    . 5CM B 2 6 ? 1.090   -4.538  6.585   1.00 96.63 6 B 1 
+HETATM 281 O O2    . 5CM B 2 6 ? -1.722  -5.959  5.068   1.00 96.65 6 B 1 
+HETATM 282 N N4    . 5CM B 2 6 ? 2.238   -4.784  3.158   1.00 95.03 6 B 1 
+HETATM 283 C "C1'" . 5CM B 2 6 ? -1.124  -5.141  7.544   1.00 96.63 6 B 1 
+HETATM 284 C "C2'" . 5CM B 2 6 ? -1.045  -6.543  8.136   1.00 95.70 6 B 1 
+HETATM 285 C "C3'" . 5CM B 2 6 ? -0.040  -6.378  9.214   1.00 95.66 6 B 1 
+HETATM 286 C "C4'" . 5CM B 2 6 ? -0.403  -5.007  9.773   1.00 96.02 6 B 1 
+HETATM 287 O "O4'" . 5CM B 2 6 ? -0.685  -4.241  8.607   1.00 95.91 6 B 1 
+HETATM 288 O "O3'" . 5CM B 2 6 ? -0.179  -7.332  10.223  1.00 95.67 6 B 1 
+HETATM 289 C "C5'" . 5CM B 2 6 ? 0.716   -4.334  10.520  1.00 95.62 6 B 1 
+HETATM 290 O "O5'" . 5CM B 2 6 ? 1.910   -4.318  9.722   1.00 95.53 6 B 1 
+HETATM 291 P P     . 5CM B 2 6 ? 3.200   -3.528  10.244  1.00 95.16 6 B 1 
+HETATM 292 O OP1   . 5CM B 2 6 ? 3.362   -3.836  11.679  1.00 94.85 6 B 1 
+HETATM 293 O OP2   . 5CM B 2 6 ? 4.289   -3.767  9.297   1.00 95.40 6 B 1 
+ATOM   294 P P     . DG  B 2 7 ? 0.685   -8.658  10.176  1.00 93.07 7 B 1 
+ATOM   295 O OP1   . DG  B 2 7 ? 0.469   -9.349  11.465  1.00 91.09 7 B 1 
+ATOM   296 O OP2   . DG  B 2 7 ? 2.060   -8.352  9.714   1.00 90.42 7 B 1 
+ATOM   297 O "O5'" . DG  B 2 7 ? -0.010  -9.489  9.003   1.00 92.15 7 B 1 
+ATOM   298 C "C5'" . DG  B 2 7 ? -1.333  -9.972  9.162   1.00 91.85 7 B 1 
+ATOM   299 C "C4'" . DG  B 2 7 ? -1.833  -10.564 7.866   1.00 93.48 7 B 1 
+ATOM   300 O "O4'" . DG  B 2 7 ? -1.812  -9.569  6.832   1.00 93.30 7 B 1 
+ATOM   301 C "C3'" . DG  B 2 7 ? -0.988  -11.698 7.310   1.00 93.22 7 B 1 
+ATOM   302 O "O3'" . DG  B 2 7 ? -1.315  -12.921 7.934   1.00 92.56 7 B 1 
+ATOM   303 C "C2'" . DG  B 2 7 ? -1.429  -11.685 5.853   1.00 93.12 7 B 1 
+ATOM   304 C "C1'" . DG  B 2 7 ? -1.571  -10.201 5.584   1.00 94.13 7 B 1 
+ATOM   305 N N9    . DG  B 2 7 ? -0.382  -9.607  4.977   1.00 94.32 7 B 1 
+ATOM   306 C C8    . DG  B 2 7 ? 0.604   -8.856  5.568   1.00 94.01 7 B 1 
+ATOM   307 N N7    . DG  B 2 7 ? 1.531   -8.469  4.730   1.00 94.51 7 B 1 
+ATOM   308 C C5    . DG  B 2 7 ? 1.128   -9.003  3.510   1.00 95.26 7 B 1 
+ATOM   309 C C6    . DG  B 2 7 ? 1.720   -8.921  2.224   1.00 95.03 7 B 1 
+ATOM   310 O O6    . DG  B 2 7 ? 2.749   -8.330  1.894   1.00 94.50 7 B 1 
+ATOM   311 N N1    . DG  B 2 7 ? 0.982   -9.619  1.270   1.00 95.46 7 B 1 
+ATOM   312 C C2    . DG  B 2 7 ? -0.179  -10.304 1.521   1.00 95.15 7 B 1 
+ATOM   313 N N2    . DG  B 2 7 ? -0.746  -10.922 0.484   1.00 94.69 7 B 1 
+ATOM   314 N N3    . DG  B 2 7 ? -0.745  -10.383 2.713   1.00 94.91 7 B 1 
+ATOM   315 C C4    . DG  B 2 7 ? -0.045  -9.713  3.655   1.00 94.64 7 B 1 
+ATOM   316 P P     . DC  B 2 8 ? -0.286  -14.129 7.963   1.00 93.62 8 B 1 
+ATOM   317 O OP1   . DC  B 2 8 ? -0.912  -15.176 8.796   1.00 92.79 8 B 1 
+ATOM   318 O OP2   . DC  B 2 8 ? 1.066   -13.623 8.295   1.00 92.57 8 B 1 
+ATOM   319 O "O5'" . DC  B 2 8 ? -0.238  -14.626 6.450   1.00 92.69 8 B 1 
+ATOM   320 C "C5'" . DC  B 2 8 ? -1.370  -15.255 5.851   1.00 89.92 8 B 1 
+ATOM   321 C "C4'" . DC  B 2 8 ? -1.067  -15.572 4.402   1.00 91.44 8 B 1 
+ATOM   322 O "O4'" . DC  B 2 8 ? -0.821  -14.350 3.686   1.00 91.13 8 B 1 
+ATOM   323 C "C3'" . DC  B 2 8 ? 0.203   -16.389 4.189   1.00 91.07 8 B 1 
+ATOM   324 O "O3'" . DC  B 2 8 ? -0.043  -17.774 4.355   1.00 89.57 8 B 1 
+ATOM   325 C "C2'" . DC  B 2 8 ? 0.529   -16.063 2.748   1.00 90.28 8 B 1 
+ATOM   326 C "C1'" . DC  B 2 8 ? 0.104   -14.598 2.640   1.00 91.12 8 B 1 
+ATOM   327 N N1    . DC  B 2 8 ? 1.231   -13.649 2.760   1.00 92.24 8 B 1 
+ATOM   328 C C2    . DC  B 2 8 ? 1.921   -13.319 1.595   1.00 92.21 8 B 1 
+ATOM   329 O O2    . DC  B 2 8 ? 1.578   -13.839 0.524   1.00 92.14 8 B 1 
+ATOM   330 N N3    . DC  B 2 8 ? 2.951   -12.445 1.662   1.00 92.65 8 B 1 
+ATOM   331 C C4    . DC  B 2 8 ? 3.300   -11.907 2.832   1.00 92.51 8 B 1 
+ATOM   332 N N4    . DC  B 2 8 ? 4.318   -11.049 2.844   1.00 91.98 8 B 1 
+ATOM   333 C C5    . DC  B 2 8 ? 2.618   -12.234 4.040   1.00 92.79 8 B 1 
+ATOM   334 C C6    . DC  B 2 8 ? 1.596   -13.105 3.957   1.00 92.62 8 B 1 
+#

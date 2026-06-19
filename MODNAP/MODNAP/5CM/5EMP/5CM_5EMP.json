@@ -1,0 +1,72 @@
+{
+    "name": "5CM_5EMP",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "KLCLVCSDEASGCHYGVLTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLE"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "KLCLVCSDEASGCHYGVLTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEA"
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "CCAGAACATGATGTTCTG"
+            }
+        },
+        {
+            "dna": {
+                "id": "D",
+                "sequence": "CCAGAACATCATGTTCTG",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 10
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "H",
+                "ccdCodes": [
+                    "ZN"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

@@ -1,0 +1,40 @@
+HETATM    1  P   C2S B   8      -3.372 -14.186  -1.182  1.00 98.87      B    P  
+HETATM    2  S1P C2S B   8      -4.017 -15.885  -1.497  1.00 98.43      B    S  
+HETATM    3  S2P C2S B   8      -3.987 -13.194   0.203  1.00 98.47      B    S  
+HETATM    4  C5' C2S B   8      -1.000 -14.791  -1.993  1.00 98.91      B    C  
+HETATM    5  O5' C2S B   8      -1.777 -14.203  -1.065  1.00 98.94      B    O  
+HETATM    6  C4' C2S B   8       0.450 -14.529  -1.684  1.00 98.93      B    C  
+HETATM    7  O4' C2S B   8       0.797 -13.291  -2.235  1.00 98.95      B    O  
+HETATM    8  C3' C2S B   8       0.744 -14.438  -0.204  1.00 98.95      B    C  
+HETATM    9  O3' C2S B   8       1.637 -15.510   0.061  1.00 98.88      B    O  
+HETATM   10  C2' C2S B   8       1.254 -13.052  -0.027  1.00 98.93      B    C  
+HETATM   11  C1' C2S B   8       1.767 -12.653  -1.382  1.00 98.95      B    C  
+HETATM   12  N1  C2S B   8       1.770 -11.203  -1.683  1.00 98.95      B    N  
+HETATM   13  C2  C2S B   8       2.838 -10.704  -2.434  1.00 98.96      B    C  
+HETATM   14  O2  C2S B   8       3.743 -11.471  -2.804  1.00 98.93      B    O  
+HETATM   15  N3  C2S B   8       2.860  -9.364  -2.723  1.00 98.96      B    N  
+HETATM   16  C4  C2S B   8       1.870  -8.535  -2.298  1.00 98.96      B    C  
+HETATM   17  N4  C2S B   8       1.942  -7.215  -2.615  1.00 98.95      B    N  
+HETATM   18  C5  C2S B   8       0.793  -9.039  -1.532  1.00 98.95      B    C  
+HETATM   19  C6  C2S B   8       0.776 -10.384  -1.245  1.00 98.94      B    C  
+TER   
+CONECT    1    2    3    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    6    5
+CONECT    5    1    4
+CONECT    6    4    7    8
+CONECT    7    6   11
+CONECT    8    6    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11    7   10   12
+CONECT   12   11   13   19
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   12   18
+END

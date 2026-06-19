@@ -1,0 +1,38 @@
+{
+    "name": "OMC_3ZD4",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GGAUGUACUACCAGCUGAUGAGUCCCAAAUAGGACAAAACGCC",
+                "modifications": [
+                    {
+                        "modificationType": "GDP",
+                        "basePosition": 1
+                    }
+                ]
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "GGCGUCCUGGUAUCCAAUCC",
+                "modifications": [
+                    {
+                        "modificationType": "OMC",
+                        "basePosition": 6
+                    },
+                    {
+                        "modificationType": "DC",
+                        "basePosition": 20
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

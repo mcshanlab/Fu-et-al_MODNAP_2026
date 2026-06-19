@@ -1,0 +1,83 @@
+HETATM    1  P   5CM C   6      -5.736  -6.712  -6.849  1.00 72.90      C    P  
+HETATM    2  C5' 5CM C   6      -7.405  -5.011  -7.862  1.00 73.29      C    C  
+HETATM    3  O5' 5CM C   6      -6.094  -5.286  -7.458  1.00 79.24      C    O  
+HETATM    4  C4' 5CM C   6      -7.599  -3.571  -7.995  1.00 79.43      C    C  
+HETATM    5  O4' 5CM C   6      -7.523  -2.834  -6.813  1.00 83.18      C    O  
+HETATM    6  C3' 5CM C   6      -6.591  -2.908  -8.928  1.00 75.55      C    C  
+HETATM    7  O3' 5CM C   6      -7.344  -2.169  -9.902  1.00 83.45      C    O  
+HETATM    8  C2' 5CM C   6      -5.829  -1.999  -8.057  1.00 75.96      C    C  
+HETATM    9  C1' 5CM C   6      -6.871  -1.632  -7.004  1.00 80.51      C    C  
+HETATM   10  N1  5CM C   6      -6.319  -1.011  -5.803  1.00 75.77      C    N  
+HETATM   11  C2  5CM C   6      -6.924   0.208  -5.384  1.00 80.31      C    C  
+HETATM   12  O2  5CM C   6      -7.861   0.698  -5.984  1.00 87.59      C    O  
+HETATM   13  N3  5CM C   6      -6.426   0.821  -4.274  1.00 86.81      C    N  
+HETATM   14  C4  5CM C   6      -5.368   0.280  -3.596  1.00 77.94      C    C  
+HETATM   15  N4  5CM C   6      -4.926   0.954  -2.513  1.00 86.35      C    N  
+HETATM   16  C5  5CM C   6      -4.748  -0.952  -4.041  1.00 69.60      C    C  
+HETATM   17  C5A 5CM C   6      -3.600  -1.540  -3.338  1.00 66.84      C    C  
+HETATM   18  C6  5CM C   6      -5.270  -1.551  -5.143  1.00 72.61      C    C  
+HETATM   19  OP1 5CM C   6      -6.064  -7.745  -7.849  1.00 73.55      C    O1-
+HETATM   20  OP2 5CM C   6      -4.374  -6.666  -6.269  1.00 76.80      C    O  
+TER   
+HETATM   21  P   5CM D   6      -1.496  11.088   1.166  1.00 78.25      D    P  
+HETATM   22  C5' 5CM D   6      -3.401  11.722  -0.484  1.00 73.77      D    C  
+HETATM   23  O5' 5CM D   6      -2.895  10.796   0.441  1.00 81.21      D    O  
+HETATM   24  C4' 5CM D   6      -4.442  11.094  -1.304  1.00 78.95      D    C  
+HETATM   25  O4' 5CM D   6      -3.969  10.000  -2.054  1.00 85.69      D    O  
+HETATM   26  C3' 5CM D   6      -5.598  10.584  -0.468  1.00 77.78      D    C  
+HETATM   27  O3' 5CM D   6      -6.771  11.308  -0.891  1.00 82.24      D    O  
+HETATM   28  C2' 5CM D   6      -5.662   9.135  -0.752  1.00 80.74      D    C  
+HETATM   29  C1' 5CM D   6      -4.962   9.017  -2.101  1.00 83.99      D    C  
+HETATM   30  N1  5CM D   6      -4.438   7.682  -2.378  1.00 80.65      D    N  
+HETATM   31  C2  5CM D   6      -4.885   7.044  -3.547  1.00 84.12      D    C  
+HETATM   32  O2  5CM D   6      -5.687   7.586  -4.295  1.00 88.98      D    O  
+HETATM   33  N3  5CM D   6      -4.420   5.807  -3.828  1.00 85.54      D    N  
+HETATM   34  C4  5CM D   6      -3.536   5.192  -2.992  1.00 78.77      D    C  
+HETATM   35  N4  5CM D   6      -3.122   3.960  -3.331  1.00 85.48      D    N  
+HETATM   36  C5  5CM D   6      -3.072   5.855  -1.798  1.00 73.00      D    C  
+HETATM   37  C5A 5CM D   6      -2.106   5.205  -0.893  1.00 68.62      D    C  
+HETATM   38  C6  5CM D   6      -3.552   7.084  -1.536  1.00 76.80      D    C  
+HETATM   39  OP1 5CM D   6      -1.561  12.448   1.771  1.00 79.12      D    O1-
+HETATM   40  OP2 5CM D   6      -1.157   9.924   2.033  1.00 79.47      D    O  
+TER   
+CONECT    1   19   20    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4    9
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    9    5    8   10
+CONECT   10    9   11   18
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   10   16
+CONECT   19    1
+CONECT   20    1
+CONECT   21   39   40   23
+CONECT   22   23   24
+CONECT   23   22   21
+CONECT   24   22   25   26
+CONECT   25   24   29
+CONECT   26   24   27   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   25   28   30
+CONECT   30   29   31   38
+CONECT   31   30   32   33
+CONECT   32   31
+CONECT   33   31   34
+CONECT   34   33   35   36
+CONECT   35   34
+CONECT   36   34   37   38
+CONECT   37   36
+CONECT   38   30   36
+CONECT   39   21
+CONECT   40   21
+END

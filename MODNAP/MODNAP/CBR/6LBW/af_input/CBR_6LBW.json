@@ -1,0 +1,58 @@
+{
+    "name": "CBR_6LBW",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "CGCGACTCGCG",
+                "modifications": [
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "LCC",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CGCGANTCGCG",
+                "modifications": [
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "LCC",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "AG"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "AG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

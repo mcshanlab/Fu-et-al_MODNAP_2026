@@ -1,0 +1,87 @@
+HETATM    1 CL   UCL A   9      -1.829 -13.984   5.734  1.00 70.84      A   CL  
+HETATM    2  P   UCL A   9      -5.702 -16.296   4.965  1.00 86.44      A    P  
+HETATM    3  O1P UCL A   9      -6.477 -17.083   5.136  1.00 78.04      A    O  
+HETATM    4  O2P UCL A   9      -6.401 -17.081   5.313  1.00 75.94      A    O  
+HETATM    5  O3P UCL A   9      -4.659 -16.085   5.983  1.00 70.51      A    O  
+HETATM    6  C5' UCL A   9      -5.355 -16.690   2.365  1.00 78.49      A    C  
+HETATM    7  O5' UCL A   9      -4.777 -16.465   3.616  1.00 82.54      A    O  
+HETATM    8  C4' UCL A   9      -4.282 -16.760   1.296  1.00 79.00      A    C  
+HETATM    9  O4' UCL A   9      -3.533 -15.496   1.319  1.00 82.90      A    O  
+HETATM   10  C3' UCL A   9      -3.287 -17.906   1.502  1.00 80.36      A    C  
+HETATM   11  O3' UCL A   9      -3.686 -19.014   0.756  1.00 78.86      A    O  
+HETATM   12  C2' UCL A   9      -1.974 -17.312   0.997  1.00 78.93      A    C  
+HETATM   13  C1' UCL A   9      -2.139 -15.814   1.015  1.00 76.92      A    C  
+HETATM   14  N1  UCL A   9      -1.310 -15.157   2.048  1.00 68.29      A    N  
+HETATM   15  C2  UCL A   9      -0.008 -14.802   1.749  1.00 66.03      A    C  
+HETATM   16  O2  UCL A   9       0.465 -15.049   0.676  1.00 73.73      A    O  
+HETATM   17  N3  UCL A   9       0.676 -14.170   2.696  1.00 61.37      A    N  
+HETATM   18  C4  UCL A   9       0.190 -13.875   3.931  1.00 63.42      A    C  
+HETATM   19  O4  UCL A   9       0.873 -13.278   4.752  1.00 70.50      A    O  
+HETATM   20  C5  UCL A   9      -1.144 -14.277   4.230  1.00 62.20      A    C  
+HETATM   21  C6  UCL A   9      -1.835 -14.893   3.277  1.00 72.02      A    C  
+TER   
+HETATM   22 CL   UCL B   9      -1.272  13.955  -3.992  1.00 69.03      B   CL  
+HETATM   23  P   UCL B   9       2.173  16.478  -2.435  1.00 86.09      B    P  
+HETATM   24  O1P UCL B   9       2.696  17.442  -2.224  1.00 76.21      B    O  
+HETATM   25  O2P UCL B   9       2.547  17.509  -2.239  1.00 76.00      B    O  
+HETATM   26  O3P UCL B   9       0.724  16.518  -2.699  1.00 74.30      B    O  
+HETATM   27  C5' UCL B   9       4.108  15.373  -3.872  1.00 78.72      B    C  
+HETATM   28  O5' UCL B   9       2.745  15.659  -3.736  1.00 81.11      B    O  
+HETATM   29  C4' UCL B   9       4.353  14.598  -5.144  1.00 74.92      B    C  
+HETATM   30  O4' UCL B   9       3.548  13.380  -5.086  1.00 82.62      B    O  
+HETATM   31  C3' UCL B   9       3.965  15.345  -6.427  1.00 80.13      B    C  
+HETATM   32  O3' UCL B   9       5.079  15.980  -6.961  1.00 78.42      B    O  
+HETATM   33  C2' UCL B   9       3.444  14.241  -7.336  1.00 79.44      B    C  
+HETATM   34  C1' UCL B   9       3.081  13.092  -6.449  1.00 74.18      B    C  
+HETATM   35  N1  UCL B   9       1.631  12.862  -6.374  1.00 66.28      B    N  
+HETATM   36  C2  UCL B   9       1.019  12.054  -7.309  1.00 65.63      B    C  
+HETATM   37  O2  UCL B   9       1.648  11.572  -8.202  1.00 69.36      B    O  
+HETATM   38  N3  UCL B   9      -0.283  11.832  -7.173  1.00 61.32      B    N  
+HETATM   39  C4  UCL B   9      -1.050  12.366  -6.181  1.00 62.95      B    C  
+HETATM   40  O4  UCL B   9      -2.241  12.114  -6.103  1.00 71.89      B    O  
+HETATM   41  C5  UCL B   9      -0.404  13.220  -5.240  1.00 63.80      B    C  
+HETATM   42  C6  UCL B   9       0.897  13.433  -5.381  1.00 71.13      B    C  
+TER   
+CONECT    1   20
+CONECT    2    3    4    7    5
+CONECT    3    2    4
+CONECT    4    2    3
+CONECT    5    2
+CONECT    6    8    7
+CONECT    7    2    6
+CONECT    8    6    9   10
+CONECT    9    8   13
+CONECT   10    8   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13    9   12   14
+CONECT   14   13   15   21
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18    1   21
+CONECT   21   14   20
+CONECT   22   41
+CONECT   23   24   25   28   26
+CONECT   24   23   25
+CONECT   25   23   24
+CONECT   26   23
+CONECT   27   29   28
+CONECT   28   23   27
+CONECT   29   27   30   31
+CONECT   30   29   34
+CONECT   31   29   32   33
+CONECT   32   31
+CONECT   33   31   34
+CONECT   34   30   33   35
+CONECT   35   34   36   42
+CONECT   36   35   37   38
+CONECT   37   36
+CONECT   38   36   39
+CONECT   39   38   40   41
+CONECT   40   39
+CONECT   41   39   22   42
+CONECT   42   35   41
+END

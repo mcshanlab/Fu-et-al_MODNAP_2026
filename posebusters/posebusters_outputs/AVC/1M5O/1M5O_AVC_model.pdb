@@ -1,0 +1,52 @@
+HETATM    1  P   AVC A  12       4.732  -2.102  13.968  1.00 97.38      A    P  
+HETATM    2  C5' AVC A  12       3.721  -1.959  11.604  1.00 97.31      A    C  
+HETATM    3  O5' AVC A  12       3.602  -2.429  12.927  1.00 97.60      A    O  
+HETATM    4  C4' AVC A  12       2.620  -2.560  10.759  1.00 97.63      A    C  
+HETATM    5  O4' AVC A  12       2.619  -4.075  10.765  1.00 97.63      A    O  
+HETATM    6  C3' AVC A  12       1.253  -2.144  11.205  1.00 97.34      A    C  
+HETATM    7  O3' AVC A  12       0.548  -1.748  10.028  1.00 96.70      A    O  
+HETATM    8  C2' AVC A  12       0.708  -3.377  11.887  1.00 97.18      A    C  
+HETATM    9  O2' AVC A  12      -0.594  -3.605  11.656  1.00 96.30      A    O  
+HETATM   10  C1' AVC A  12       1.441  -4.510  11.213  1.00 97.69      A    C  
+HETATM   11  N1  AVC A  12       0.144  -9.359  11.950  1.00 97.41      A    N  
+HETATM   12  O1V AVC A  12      -1.488  -3.604   8.903  1.00 93.10      A    O  
+HETATM   13  C2  AVC A  12      -0.093  -8.572  10.898  1.00 97.54      A    C  
+HETATM   14  O2V AVC A  12      -2.244  -1.689  10.750  1.00 91.86      A    O  
+HETATM   15  N3  AVC A  12       0.320  -7.306  10.814  1.00 97.61      A    N  
+HETATM   16  C4  AVC A  12       1.005  -6.833  11.858  1.00 97.59      A    C  
+HETATM   17  C5  AVC A  12       1.300  -7.601  13.004  1.00 97.73      A    C  
+HETATM   18  C6  AVC A  12       0.822  -8.924  13.016  1.00 97.66      A    C  
+HETATM   19  N6  AVC A  12       1.021  -9.740  14.064  1.00 97.08      A    N  
+HETATM   20  N7  AVC A  12       2.031  -6.828  13.853  1.00 97.31      A    N  
+HETATM   21  C8  AVC A  12       2.166  -5.662  13.277  1.00 97.12      A    C  
+HETATM   22  N9  AVC A  12       1.535  -5.643  12.078  1.00 97.61      A    N  
+HETATM   23  OP1 AVC A  12       4.981  -0.642  13.949  1.00 96.85      A    O1-
+HETATM   24  OP2 AVC A  12       4.323  -2.752  15.265  1.00 96.83      A    O  
+HETATM   25  V   AVC A  12      -1.073  -2.702  10.187  1.00 95.96      A    V  
+TER   
+CONECT    1    3   23   24
+CONECT    2    4    3
+CONECT    3    1    2
+CONECT    4    2    5    6
+CONECT    5    4   10
+CONECT    6    4    7    8
+CONECT    7    6   25
+CONECT    8    6    9   10
+CONECT    9    8   25
+CONECT   10    5    8   22
+CONECT   11   13   18
+CONECT   12   25
+CONECT   13   11   15
+CONECT   14   25
+CONECT   15   13   16
+CONECT   16   15   17   22
+CONECT   17   16   18   20
+CONECT   18   17   11   19
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20   22
+CONECT   22   10   16   21
+CONECT   23    1
+CONECT   24    1
+CONECT   25    7    9   12   14
+END

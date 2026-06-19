@@ -1,0 +1,40 @@
+{
+    "name": "5CM_5T01",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "HMKAERKRMRNRIAASKSRKRKLERIARLEEKVKTLKAQNSELASTANMLREQVAQLKQKVM"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "HMKAERKRMRNRIAASKSRKRKLERIARLEEKVKTLKAQNSELASTANMLREQVAQLKQKVM"
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "CTCCTATGACTCGTCCAT"
+            }
+        },
+        {
+            "dna": {
+                "id": "D",
+                "sequence": "AATGGACGAGTCATAGGAG",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 7
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

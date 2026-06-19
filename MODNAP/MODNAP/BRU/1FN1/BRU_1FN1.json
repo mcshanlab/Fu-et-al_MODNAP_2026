@@ -1,0 +1,58 @@
+{
+    "name": "BRU_1FN1",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "GUACG",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 2
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CGUACG",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 3
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "CO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "CO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "8AD"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

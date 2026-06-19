@@ -1,0 +1,44 @@
+{
+    "name": "FMU_2BH2",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "QIITVSVNDLDSFGQGVARHNGKTLFIPGLLPQENAEVTVTEDKKQYARAKVVRRLSDSPERETPRCPHFGVCGGCQQQHASVDLQQRSKSAALARLMKHDVSEVIADVPWGYRRRARLSLNYLPKTQQLQMGFRKAGSSDIVDVKQCPILAPQLEALLPKVRACLGSLQAMRHLGHVELVQATSGTLMILRHTAPLSSADREKLERFSHSEGLDLYLAPDSEILETVSGEMPWYDSNGLRLTFSPRDFIQVNAGVNQKMVARALEWLDVQPEDRVLDLFCGMGNFTLPLATQAASVVGVEGVPALVEKGQQNARLNGLQNVTFYHENLEEDVTKQPWAKNGFDKVLLDPARAGAAGVMQQIIKLEPIRIVYVSCNPATLARDSEALLKAGYTIARLAMLDMFPHTGHLESMVLFSRV"
+            }
+        },
+        {
+            "rna": {
+                "id": "C",
+                "sequence": "AGCGAAAUUCCUUGUCGGGUAAGUUCCGAC",
+                "modifications": [
+                    {
+                        "modificationType": "FMU",
+                        "basePosition": 8
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "SAH"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "SF4"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

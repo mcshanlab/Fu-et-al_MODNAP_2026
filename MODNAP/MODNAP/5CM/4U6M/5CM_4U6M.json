@@ -1,0 +1,32 @@
+{
+    "name": "5CM_4U6M",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GAAGAAGAG"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CTCTTCTTC",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 1
+                    },
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 9
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

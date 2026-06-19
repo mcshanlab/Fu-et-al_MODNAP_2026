@@ -1,0 +1,54 @@
+{
+    "name": "64T_4GLE",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "EGRHMRVGYVSTNYSLGCKADKTIKLSSLSEERVLKVSSSNLLCLKNILEWNLKHEILFFRISSNTIPLASHPKFHVNWKDKLSHILGDIGDFIKENSIRISMHPGQYVVLNSVREEVVRSSIMELKYHADLLDSMGIEGKIQIHVGSSMNGKEESLNRFIENFRKLPSNISKRLVIENDDKVFSVKDCLWISERTGIPVIFDNLHHSILNNGESLNDALSLVRRTWKDRPMIDYSEQEPGEKPGVHATTINEENFRRFVNEVDEVDIMLEVKDKEISALKAVKVLKELNKL"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CGTCGTCAAGGACGC"
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "GCGTCCTTGACGACG",
+                "modifications": [
+                    {
+                        "modificationType": "64T",
+                        "basePosition": 7
+                    },
+                    {
+                        "modificationType": "5PY",
+                        "basePosition": 8
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "SO4"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "SO4"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

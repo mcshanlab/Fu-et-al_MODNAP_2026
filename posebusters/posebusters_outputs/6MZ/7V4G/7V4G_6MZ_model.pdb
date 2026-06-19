@@ -1,0 +1,50 @@
+HETATM    1  P   6MZ E   3      -9.831  -4.405   0.059  1.00 87.95      E    P  
+HETATM    2  O1P 6MZ E   3     -10.170  -4.738   1.523  1.00 86.66      E    O1-
+HETATM    3  O2P 6MZ E   3      -8.585  -3.667  -0.027  1.00 84.01      E    O  
+HETATM    4  O3P 6MZ E   3      -9.554  -5.435  -0.643  1.00 84.45      E    O  
+HETATM    5  C5' 6MZ E   3     -11.933  -2.898   0.423  1.00 87.75      E    C  
+HETATM    6  O5' 6MZ E   3     -10.919  -3.289  -0.396  1.00 88.57      E    O  
+HETATM    7  C4' 6MZ E   3     -12.271  -1.461   0.190  1.00 88.99      E    C  
+HETATM    8  O4' 6MZ E   3     -11.110  -0.675   0.545  1.00 87.74      E    O  
+HETATM    9  C3' 6MZ E   3     -12.516  -1.055  -1.234  1.00 91.94      E    C  
+HETATM   10  O3' 6MZ E   3     -13.476   0.015  -1.158  1.00 89.03      E    O  
+HETATM   11  C2' 6MZ E   3     -11.147  -0.504  -1.663  1.00 91.44      E    C  
+HETATM   12  O2' 6MZ E   3     -11.210   0.424  -2.731  1.00 87.75      E    O  
+HETATM   13  C1' 6MZ E   3     -10.745   0.223  -0.382  1.00 91.05      E    C  
+HETATM   14  N1  6MZ E   3      -7.274   3.617   1.035  1.00 88.18      E    N  
+HETATM   15  C2  6MZ E   3      -8.585   3.777   0.838  1.00 89.13      E    C  
+HETATM   16  N3  6MZ E   3      -9.379   2.792   0.447  1.00 88.82      E    N  
+HETATM   17  C4  6MZ E   3      -8.806   1.589   0.257  1.00 89.54      E    C  
+HETATM   18  C5  6MZ E   3      -7.474   1.340   0.438  1.00 89.15      E    C  
+HETATM   19  C6  6MZ E   3      -6.693   2.406   0.849  1.00 89.89      E    C  
+HETATM   20  N6  6MZ E   3      -5.349   2.281   1.065  1.00 88.84      E    N  
+HETATM   21  N7  6MZ E   3      -7.227   0.044   0.168  1.00 88.40      E    N  
+HETATM   22  C8  6MZ E   3      -8.364  -0.491  -0.151  1.00 88.59      E    C  
+HETATM   23  C9  6MZ E   3      -4.564   3.410   1.353  1.00 86.90      E    C  
+HETATM   24  N9  6MZ E   3      -9.347   0.421  -0.113  1.00 88.73      E    N  
+TER   
+CONECT    1    4    2    3    6
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    7    6
+CONECT    6    1    5
+CONECT    7    5    8    9
+CONECT    8    7   13
+CONECT    9    7   10   11
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   12   11
+CONECT   13    8   11   24
+CONECT   14   19   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   24
+CONECT   18   17   19   21
+CONECT   19   14   18   20
+CONECT   20   19   23
+CONECT   21   18   22
+CONECT   22   21   24
+CONECT   23   20
+CONECT   24   17   13   22
+END

@@ -1,0 +1,44 @@
+{
+    "name": "MA7_3I2O",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "LAAGAVILRRFAFNAAEQLIRDINDVASQSPFRQMVTPGGYTMSVAMTNCGHLGWTTHRQGYLYSPIDPQTNKPWPAMPQSFHNLCQRAATAAGYPDFQPDACLINRYAPGAKLSLHQDKDEPDLRAPIVSVSLGLPAIFQFGGLKRNDPLKRLLLEHGDVVVWGGESRLFYHGIQPLKAGFHPLTIDCRYNLTFRQAG"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "TAT",
+                "modifications": [
+                    {
+                        "modificationType": "MA7",
+                        "basePosition": 2
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "AKG"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "FE2"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

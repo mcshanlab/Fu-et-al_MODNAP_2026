@@ -1,0 +1,82 @@
+HETATM    1  P   5IU F   7     -18.450  -4.672  -7.248  1.00 91.06      F    P  
+HETATM    2  C5' 5IU F   7     -18.520  -5.921  -4.990  1.00 92.05      F    C  
+HETATM    3  O5' 5IU F   7     -18.633  -4.698  -5.662  1.00 90.73      F    O  
+HETATM    4  C4' 5IU F   7     -18.358  -5.715  -3.517  1.00 92.36      F    C  
+HETATM    5  O4' 5IU F   7     -17.001  -5.309  -3.144  1.00 93.90      F    O  
+HETATM    6  C3' 5IU F   7     -19.313  -4.592  -2.987  1.00 93.33      F    C  
+HETATM    7  O3' 5IU F   7     -20.018  -5.075  -1.863  1.00 90.93      F    O  
+HETATM    8  C2' 5IU F   7     -18.388  -3.469  -2.646  1.00 91.97      F    C  
+HETATM    9  C1' 5IU F   7     -17.076  -4.209  -2.294  1.00 92.55      F    C  
+HETATM   10  N1  5IU F   7     -15.857  -3.442  -2.446  1.00 93.86      F    N  
+HETATM   11  C2  5IU F   7     -14.967  -3.449  -1.404  1.00 93.90      F    C  
+HETATM   12  O2  5IU F   7     -15.183  -4.079  -0.373  1.00 92.40      F    O  
+HETATM   13  N3  5IU F   7     -13.842  -2.748  -1.542  1.00 91.88      F    N  
+HETATM   14  C4  5IU F   7     -13.537  -2.023  -2.626  1.00 91.61      F    C  
+HETATM   15  O4  5IU F   7     -12.460  -1.412  -2.664  1.00 91.33      F    O  
+HETATM   16  C5  5IU F   7     -14.476  -2.004  -3.700  1.00 92.55      F    C  
+HETATM   17  C6  5IU F   7     -15.598  -2.718  -3.567  1.00 93.89      F    C  
+HETATM   18  OP1 5IU F   7     -19.602  -5.380  -7.860  1.00 88.56      F    O1-
+HETATM   19  OP2 5IU F   7     -18.146  -3.266  -7.668  1.00 89.62      F    O  
+HETATM   20  I5  5IU F   7     -14.153  -0.938  -5.314  1.00 88.58      F    I  
+HETATM   21  P   5IU F  10     -20.050   3.201   8.277  1.00 88.75      F    P  
+HETATM   22  C5' 5IU F  10     -19.234   4.840   6.259  1.00 85.78      F    C  
+HETATM   23  O5' 5IU F  10     -19.384   4.530   7.629  1.00 87.77      F    O  
+HETATM   24  C4' 5IU F  10     -18.662   6.232   5.998  1.00 87.23      F    C  
+HETATM   25  O4' 5IU F  10     -18.068   6.114   7.528  1.00 88.76      F    O  
+HETATM   26  C3' 5IU F  10     -17.499   6.521   5.058  1.00 85.60      F    C  
+HETATM   27  O3' 5IU F  10     -17.296   8.027   4.477  1.00 85.50      F    O  
+HETATM   28  C2' 5IU F  10     -16.340   6.298   5.987  1.00 84.80      F    C  
+HETATM   29  C1' 5IU F  10     -16.838   6.845   7.269  1.00 85.76      F    C  
+HETATM   30  N1  5IU F  10     -16.455   6.367   8.552  1.00 83.45      F    N  
+HETATM   31  C2  5IU F  10     -15.908   7.261   9.417  1.00 84.26      F    C  
+HETATM   32  O2  5IU F  10     -15.705   8.415   9.116  1.00 83.72      F    O  
+HETATM   33  N3  5IU F  10     -15.578   6.837  10.643  1.00 81.65      F    N  
+HETATM   34  C4  5IU F  10     -15.799   5.565  11.055  1.00 83.02      F    C  
+HETATM   35  O4  5IU F  10     -15.472   5.245  12.194  1.00 81.92      F    O  
+HETATM   36  C5  5IU F  10     -16.404   4.659  10.129  1.00 83.38      F    C  
+HETATM   37  C6  5IU F  10     -16.712   5.099   8.912  1.00 86.31      F    C  
+HETATM   38  OP1 5IU F  10     -19.901   3.154   9.755  1.00 85.33      F    O1-
+HETATM   39  OP2 5IU F  10     -21.415   3.136   7.718  1.00 86.12      F    O  
+HETATM   40  I5  5IU F  10     -16.803   2.848  10.629  1.00 77.11      F    I  
+TER   
+CONECT    1   18   19    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4    9
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    9    5    8   10
+CONECT   10    9   11   17
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   20
+CONECT   17   10   16
+CONECT   18    1
+CONECT   19    1
+CONECT   20   16
+CONECT   21   38   39   23
+CONECT   22   23   24
+CONECT   23   22   21
+CONECT   24   22   25   26
+CONECT   25   24   29
+CONECT   26   24   27   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   25   28   30
+CONECT   30   29   31   37
+CONECT   31   30   32   33
+CONECT   32   31
+CONECT   33   31   34
+CONECT   34   33   35   36
+CONECT   35   34
+CONECT   36   34   37   40
+CONECT   37   30   36
+CONECT   38   21
+CONECT   39   21
+CONECT   40   36
+END

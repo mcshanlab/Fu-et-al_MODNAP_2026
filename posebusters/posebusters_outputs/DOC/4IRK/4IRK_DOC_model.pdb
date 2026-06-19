@@ -1,0 +1,39 @@
+HETATM    1  P   DOC K   1     -30.581 -12.158  -3.250  1.00 94.14      K    P  
+HETATM    2  C5' DOC K   1     -30.844  -9.595  -3.430  1.00 94.89      K    C  
+HETATM    3  O5' DOC K   1     -30.502 -10.773  -4.038  1.00 94.62      K    O  
+HETATM    4  C4' DOC K   1     -29.780  -8.552  -3.670  1.00 96.44      K    C  
+HETATM    5  O4' DOC K   1     -28.592  -8.889  -2.972  1.00 96.63      K    O  
+HETATM    6  C3' DOC K   1     -29.395  -8.451  -5.109  1.00 95.40      K    C  
+HETATM    7  C2' DOC K   1     -27.946  -8.255  -5.128  1.00 96.52      K    C  
+HETATM    8  C1' DOC K   1     -27.470  -8.538  -3.750  1.00 97.33      K    C  
+HETATM    9  N1  DOC K   1     -26.472  -9.639  -3.735  1.00 96.36      K    N  
+HETATM   10  C2  DOC K   1     -25.303  -9.466  -3.053  1.00 96.46      K    C  
+HETATM   11  O2  DOC K   1     -25.110  -8.416  -2.474  1.00 96.78      K    O  
+HETATM   12  N3  DOC K   1     -24.360 -10.429  -3.003  1.00 97.57      K    N  
+HETATM   13  C4  DOC K   1     -24.554 -11.587  -3.649  1.00 96.96      K    C  
+HETATM   14  N4  DOC K   1     -23.603 -12.535  -3.594  1.00 97.42      K    N  
+HETATM   15  C5  DOC K   1     -25.732 -11.786  -4.366  1.00 97.09      K    C  
+HETATM   16  C6  DOC K   1     -26.663 -10.782  -4.405  1.00 96.77      K    C  
+HETATM   17  OP1 DOC K   1     -30.215 -13.237  -4.217  1.00 90.96      K    O  
+HETATM   18  OP2 DOC K   1     -31.952 -12.289  -2.697  1.00 89.29      K    O1-
+HETATM   19  OP3 DOC K   1     -29.605 -12.083  -2.124  1.00 95.39      K    O  
+CONECT    1   17   18   19    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4    8
+CONECT    6    4    7
+CONECT    7    6    8
+CONECT    8    5    7    9
+CONECT    9    8   10   16
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16    9   15
+CONECT   17    1
+CONECT   18    1
+CONECT   19    1
+END

@@ -1,0 +1,36 @@
+{
+    "name": "PSU_3CGS",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GCGCGUAGUAGC",
+                "modifications": [
+                    {
+                        "modificationType": "PSU",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "CGCUACUGACGCG"
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

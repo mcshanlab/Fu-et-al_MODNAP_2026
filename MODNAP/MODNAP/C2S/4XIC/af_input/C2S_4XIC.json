@@ -1,0 +1,50 @@
+{
+    "name": "C2S_4XIC",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "KRGRQTYTRYQTLELEKEFHFNRYLTRRRRIEIAHALSLTERQIKIWFQNRRMKWKKEN"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "AGAAAGCCATTAGAG",
+                "modifications": [
+                    {
+                        "modificationType": "C2S",
+                        "basePosition": 8
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "TCTCTAATGGCTTTC"
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "NI"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "H",
+                "ccdCodes": [
+                    "MPD"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

@@ -1,0 +1,60 @@
+{
+    "name": "H2U_2FMT",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "SESLRIIFAGTPDFAARHLDALLSSGHNVVGVFTQPDRPAGRGKKLMPSPVKVLAEEKGLPVFQPVSLRPQENQQLVAELQADVMVVVAYGLILPKAVLEMPRLGCINVHGSLLPRWRGAAPIQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLSCPITAEDTSGTLYDKLAELGPQGLITTLKQLADGTAKPEVQDETLVTYAEKLSKEEARIDWSLSAAQLERCIRAFNPWPMSWLEIEGQPVKVWKASVIDTATNAAPGTILEANKQGIQVATGDGILNLLSLQPAGKKAMSAQDLLNSRREWFVPGNRLV"
+            }
+        },
+        {
+            "rna": {
+                "id": "C",
+                "sequence": "CGCGGGGUGGAGCAGCCUGGUAGCUCGUCGGGCUCAUAACCCGAAGAUCGUCGGUUCAAAUCCGGCCCCCGCAACCA",
+                "modifications": [
+                    {
+                        "modificationType": "4SU",
+                        "basePosition": 8
+                    },
+                    {
+                        "modificationType": "H2U",
+                        "basePosition": 21
+                    },
+                    {
+                        "modificationType": "OMC",
+                        "basePosition": 33
+                    },
+                    {
+                        "modificationType": "5MU",
+                        "basePosition": 55
+                    },
+                    {
+                        "modificationType": "PSU",
+                        "basePosition": 56
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "H",
+                "ccdCodes": [
+                    "FME"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

@@ -1,0 +1,72 @@
+{
+    "name": "5BU_2PN4",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "CGGAGGAACUACUGUCUUCACGCC"
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "GCGUGUCGUGCAGCCUCCGG",
+                "modifications": [
+                    {
+                        "modificationType": "5BU",
+                        "basePosition": 4
+                    },
+                    {
+                        "modificationType": "5BU",
+                        "basePosition": 16
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "G",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "H",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "I",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

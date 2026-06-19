@@ -1,0 +1,56 @@
+{
+    "name": "BRU_1DP7",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "P",
+                "sequence": "TVQWLLDNYETAEGVSLPRSTLYNHYLLHSQEQKLEPVNAASFGKLIRSVFMGLRTRRLGTRGNSKYHYYGLRIKA"
+            }
+        },
+        {
+            "dna": {
+                "id": "D",
+                "sequence": "CGUTACCAUGGTAACG",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 9
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "EDO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "EDO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "PEG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

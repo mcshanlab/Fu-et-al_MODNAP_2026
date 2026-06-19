@@ -1,0 +1,56 @@
+{
+    "name": "5CM_4U6L",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GAAGAAGAG"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "CTCTTCTTC",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 1
+                    },
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 9
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "SR"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "X",
+                "ccdCodes": [
+                    "NCO"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

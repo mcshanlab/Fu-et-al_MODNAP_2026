@@ -1,0 +1,68 @@
+{
+    "name": "BRU_5EV2",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "QMTRQARRLYVGNIPFGITEEAMMDFFNAQMRLGGLTQAPGNPVLAVQINQDKNFAFLEFRSVDETTQAMAFDGIIFQGQSLKIRRPHDYQPLPGMSENPSVYVPGVVSTVVPDSAHKLFIGGLPNYLNDDQVKELLTSFGPLKAFNLVKDSATGLSKGYAFCEYVDINVTDQAIAGLNGMQLGDKKLLVQRASVGAK"
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "UUUUUUUU",
+                "modifications": [
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 4
+                    },
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 6
+                    },
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 7
+                    },
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 8
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "DIO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "PGE"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "PEG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

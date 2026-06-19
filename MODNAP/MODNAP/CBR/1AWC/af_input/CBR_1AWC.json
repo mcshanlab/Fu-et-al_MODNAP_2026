@@ -1,0 +1,58 @@
+{
+    "name": "CBR_1AWC",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "IQLWQFLLELLTDKDARDCISWVGDEGEFKLNQPELVAQKWGQRKNKPTMNYEKLSRALRYYYDGDMICKVQGKRFVYKFVCDLKTLIGYSAAELNRLVIECEQKKLARM"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "DLGKKLLEAARAGQDDEVRILMANGAPFTTDWLGTSPLHLAAQYGHFSTTEVLLRAGVSRDARTKVDRTPLHMAASEGHANIVEVLLKHGADVNAKDMLKMTALHWATEHNHQEVVELLIKYGADVHTQSKFCKTAFDISIDNGNEDLAEILQ"
+            }
+        },
+        {
+            "dna": {
+                "id": "D",
+                "sequence": "AAUGACCGGAAGTACACCGGA",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 15
+                    },
+                    {
+                        "modificationType": "CBR",
+                        "basePosition": 18
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "E",
+                "sequence": "TTCCGGUGUACTTCCGGTCAT",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 7
+                    },
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 9
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

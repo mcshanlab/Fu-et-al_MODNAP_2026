@@ -1,0 +1,42 @@
+HETATM    1  P   PSU A   7      -2.761   9.731  -1.794  1.00 98.68      A    P  
+HETATM    2  C5' PSU A   7      -1.666  10.701   0.341  1.00 98.81      A    C  
+HETATM    3  O5' PSU A   7      -1.802   9.619  -0.555  1.00 98.71      A    O  
+HETATM    4  C4' PSU A   7      -0.881  10.279   1.539  1.00 98.86      A    C  
+HETATM    5  O4' PSU A   7      -1.579   9.228   2.237  1.00 98.86      A    O  
+HETATM    6  C3' PSU A   7       0.497   9.707   1.226  1.00 98.90      A    C  
+HETATM    7  O3' PSU A   7       1.478  10.701   0.971  1.00 98.79      A    O  
+HETATM    8  C2' PSU A   7       0.751   8.919   2.503  1.00 98.89      A    C  
+HETATM    9  O2' PSU A   7       1.094   9.769   3.564  1.00 98.80      A    O  
+HETATM   10  C1' PSU A   7      -0.626   8.328   2.784  1.00 98.87      A    C  
+HETATM   11  N1  PSU A   7      -1.504   5.508   0.501  1.00 98.82      A    N  
+HETATM   12  C2  PSU A   7      -0.925   4.466   1.175  1.00 98.85      A    C  
+HETATM   13  O2  PSU A   7      -0.993   3.327   0.714  1.00 98.68      A    O  
+HETATM   14  N3  PSU A   7      -0.274   4.676   2.353  1.00 98.82      A    N  
+HETATM   15  C4  PSU A   7      -0.164   5.889   2.885  1.00 98.89      A    C  
+HETATM   16  O4  PSU A   7       0.448   6.040   3.952  1.00 98.81      A    O  
+HETATM   17  C5  PSU A   7      -0.754   6.981   2.186  1.00 98.88      A    C  
+HETATM   18  C6  PSU A   7      -1.424   6.739   0.997  1.00 98.84      A    C  
+HETATM   19  OP1 PSU A   7      -2.504  11.046  -2.467  1.00 98.41      A    O1-
+HETATM   20  OP2 PSU A   7      -2.606   8.458  -2.585  1.00 98.50      A    O  
+TER   
+CONECT    1   19   20    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4   10
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9   10
+CONECT    9    8
+CONECT   10    5    8   17
+CONECT   11   12   18
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   10   18
+CONECT   18   11   17
+CONECT   19    1
+CONECT   20    1
+END

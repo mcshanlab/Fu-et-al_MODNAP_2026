@@ -1,0 +1,56 @@
+{
+    "name": "BRU_3BS1",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "MDNSVETIELKRGSNSVYVQYDDIMFFESSTKSHRLIAHLDNRQIEFYGNLKELSQLDDRFFRCHNSFVVNRHNIESIDSKERIVYFKNKEHCYASVRNVKKI"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "TTTAACAGTTAAGUAT",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 14
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "AAUACTTAACTGTTAA",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 3
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "MG"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

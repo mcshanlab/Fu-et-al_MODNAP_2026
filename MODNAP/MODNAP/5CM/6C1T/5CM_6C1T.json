@@ -1,0 +1,56 @@
+{
+    "name": "5CM_6C1T",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "KRMDCPALPPGWKKEEVIRKSGLSAGKSDVYYFSPSGKKFRSKPQLARYLGNTVDLSSFDFRTGKMMP"
+            }
+        },
+        {
+            "protein": {
+                "id": "D",
+                "sequence": "RMDCPALPPGWKKEEVIRKSGLSAGKSDVYYFSPSGKKFRSKPQLARYLGNTVDLSSFDFRTGKMM"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "GCCTACACTCCG",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 6
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "CGGAGTGTAGGC"
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "SO4"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "GOL"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

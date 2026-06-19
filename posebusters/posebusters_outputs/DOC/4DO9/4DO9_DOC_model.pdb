@@ -1,0 +1,39 @@
+HETATM    1  P   DOC X   1      -2.682  -0.163   4.812  1.00 95.45      X    P  
+HETATM    2  C5' DOC X   1      -0.470   0.737   5.796  1.00 96.35      X    C  
+HETATM    3  O5' DOC X   1      -1.119  -0.069   4.853  1.00 94.93      X    O  
+HETATM    4  C4' DOC X   1       0.903   1.201   5.297  1.00 97.00      X    C  
+HETATM    5  O4' DOC X   1       1.716   0.078   4.965  1.00 96.17      X    O  
+HETATM    6  C3' DOC X   1       0.845   2.029   4.041  1.00 95.58      X    C  
+HETATM    7  C2' DOC X   1       2.150   1.716   3.310  1.00 96.89      X    C  
+HETATM    8  C1' DOC X   1       2.605   0.377   3.904  1.00 97.50      X    C  
+HETATM    9  N1  DOC X   1       2.553  -0.722   2.929  1.00 97.93      X    N  
+HETATM   10  C2  DOC X   1       3.710  -1.037   2.233  1.00 97.95      X    C  
+HETATM   11  O2  DOC X   1       4.758  -0.379   2.403  1.00 97.96      X    O  
+HETATM   12  N3  DOC X   1       3.675  -2.091   1.361  1.00 97.89      X    N  
+HETATM   13  C4  DOC X   1       2.551  -2.809   1.156  1.00 98.14      X    C  
+HETATM   14  N4  DOC X   1       2.560  -3.848   0.310  1.00 98.03      X    N  
+HETATM   15  C5  DOC X   1       1.364  -2.477   1.846  1.00 98.03      X    C  
+HETATM   16  C6  DOC X   1       1.399  -1.427   2.715  1.00 97.86      X    C  
+HETATM   17  OP1 DOC X   1      -3.081  -1.240   3.860  1.00 87.43      X    O1-
+HETATM   18  OP2 DOC X   1      -3.233  -0.336   6.202  1.00 87.96      X    O  
+HETATM   19  OP3 DOC X   1      -3.161   1.151   4.297  1.00 98.18      X    O  
+CONECT    1   17   18   19    3
+CONECT    2    3    4
+CONECT    3    2    1
+CONECT    4    2    5    6
+CONECT    5    4    8
+CONECT    6    4    7
+CONECT    7    6    8
+CONECT    8    5    7    9
+CONECT    9    8   10   16
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16    9   15
+CONECT   17    1
+CONECT   18    1
+CONECT   19    1
+END

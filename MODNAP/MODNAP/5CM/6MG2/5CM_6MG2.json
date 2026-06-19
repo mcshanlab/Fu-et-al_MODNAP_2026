@@ -1,0 +1,70 @@
+{
+    "name": "5CM_6MG2",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "MKHSDEYKIRRERNNIAVRKSRDKAKMRNLETQHKVLELTAENERLQKKVEQLSRELSTLRNLFK"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "MKHSDEYKIRRERNNIAVRKSRDKAKMRNLETQHKVLELTAENERLQKKVEQLSRELSTLRNLFKQLPE"
+            }
+        },
+        {
+            "dna": {
+                "id": "C",
+                "sequence": "TATATTGCGCAATATA",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 8
+                    },
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 10
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "D",
+                "sequence": "TATATTGCGCAATATA",
+                "modifications": [
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 8
+                    },
+                    {
+                        "modificationType": "5CM",
+                        "basePosition": 10
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "E",
+                "ccdCodes": [
+                    "EDO"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "F",
+                "ccdCodes": [
+                    "EDO"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

@@ -1,0 +1,50 @@
+{
+    "name": "BRU_1R71",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "EADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE"
+            }
+        },
+        {
+            "protein": {
+                "id": "B",
+                "sequence": "YNEADQVIENLQRNELTPREIADFIGRELAKGKKKGDIAKEIGKSPAFITQHVTLLDLPEKIADAFNTGRVRDVTVVNELVTAFKKRPEEVEAWLDDDTQEITRGTVKLLREFLDE"
+            }
+        },
+        {
+            "dna": {
+                "id": "E",
+                "sequence": "CUTTTAGCCGCTAAAAG",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 2
+                    }
+                ]
+            }
+        },
+        {
+            "dna": {
+                "id": "F",
+                "sequence": "CUTTTAGCCGCTAAAAU",
+                "modifications": [
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 2
+                    },
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 17
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

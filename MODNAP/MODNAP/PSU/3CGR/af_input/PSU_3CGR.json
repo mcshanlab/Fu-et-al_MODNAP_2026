@@ -1,0 +1,36 @@
+{
+    "name": "PSU_3CGR",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "rna": {
+                "id": "A",
+                "sequence": "GCGCGGUAGUGC",
+                "modifications": [
+                    {
+                        "modificationType": "PSU",
+                        "basePosition": 7
+                    }
+                ]
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "CGCACUAACCGCG"
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "SO4"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

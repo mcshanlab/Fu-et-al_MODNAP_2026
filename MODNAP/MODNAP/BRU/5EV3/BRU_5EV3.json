@@ -1,0 +1,40 @@
+{
+    "name": "BRU_5EV3",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "protein": {
+                "id": "A",
+                "sequence": "TRQARRLYVGNIPFGITEEAMMDFFNAQMRLGGLTQAPGNPVLAVQINQDKNFAFLEFRSVDETTQAMAFDGIIFQGQSLKIRRPHDYQPLPGMSENPSVYVPGVVSTVVPDSAHKLFIGGLPNYLNDDQVKELLTSFGPLKAFNLVKDSATGLSKGYAFCEYVDINVTDQAIAGLNGMQLGDKKLLVQRASVGAK"
+            }
+        },
+        {
+            "rna": {
+                "id": "B",
+                "sequence": "UUUUUUUU",
+                "modifications": [
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 3
+                    },
+                    {
+                        "modificationType": "BRU",
+                        "basePosition": 6
+                    },
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 7
+                    },
+                    {
+                        "modificationType": "DU",
+                        "basePosition": 8
+                    }
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}

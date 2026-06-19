@@ -1,0 +1,44 @@
+{
+    "name": "G49_381D",
+    "modelSeeds": [
+        68683103
+    ],
+    "sequences": [
+        {
+            "dna": {
+                "id": "A",
+                "sequence": "TGGCCG"
+            }
+        },
+        {
+            "dna": {
+                "id": "B",
+                "sequence": "TGGCCG",
+                "modifications": [
+                    {
+                        "modificationType": "G49",
+                        "basePosition": 3
+                    }
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "C",
+                "ccdCodes": [
+                    "DM8"
+                ]
+            }
+        },
+        {
+            "ligand": {
+                "id": "D",
+                "ccdCodes": [
+                    "DM8"
+                ]
+            }
+        }
+    ],
+    "dialect": "alphafold3",
+    "version": 1
+}
